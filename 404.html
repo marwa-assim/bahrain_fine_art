@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Redirecting...</title>
+    <title>Redirecting…</title>
     <script>
-      // GitHub Pages doesn't support history API fallback natively
-      // This script will redirect the user back to index.html with the correct route
-      const redirectTo = location.pathname.replace('/bahrain_fine_art', '');
-      location.replace('/bahrain_fine_art/?redirect=' + redirectTo + location.search + location.hash);
+      // Fix GitHub Pages 404 on client-side routing (e.g., React Router)
+      const redirectPath = location.pathname + location.search + location.hash;
+      const base = '/bahrain_fine_art'; // your repo name
+      const target = base + '/?redirect=' + encodeURIComponent(redirectPath);
+      location.replace(target);
     </script>
   </head>
   <body>
-    Redirecting...
+    <p>Redirecting…</p>
   </body>
 </html>
