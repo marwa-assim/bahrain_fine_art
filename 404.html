@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/bahrain_fine_art/" />
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // GitHub Pages doesn't support history API fallback natively
+      // This script will redirect the user back to index.html with the correct route
+      const redirectTo = location.pathname.replace('/bahrain_fine_art', '');
+      location.replace('/bahrain_fine_art/?redirect=' + redirectTo + location.search + location.hash);
+    </script>
   </head>
   <body>
+    Redirecting...
   </body>
 </html>
