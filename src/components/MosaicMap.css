@@ -1,0 +1,28 @@
+.mosaic-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mosaic-background {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.mosaic-piece {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+
+.mosaic-piece:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
