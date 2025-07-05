@@ -1,7 +1,11 @@
-import React, { useState, Suspense } from "react";
+import React, { Suspense, useState, useEffect, useContext } from "react";
+import { ThemeContext } from "./contexts/ThemeContext"; 
+import { useLocation } from "react-router-dom";
 import { Routes, Route } from "react-router-dom"; // ✅ Remove BrowserRouter or Router from here
+import { Link } from 'react-router-dom';
 import Tile from "./components/Tile";
 import MosaicMap from "./components/MosaicMap";
+import ContactPage from "./pages/ContactPage";
 import Navbar from "./components/Navbar";
 import PromptGenerator from "./components/PromptGenerator";
 import { landmarks } from "./data/landmarks";
@@ -11,10 +15,62 @@ import "./App.css";
 import "./styles/Popup.css";
 import "./index.css";
 
+const LandmarksPage = React.lazy(() => import("./pages/LandmarksPage"));
+
+
+const HomePage = ({ viewMode, setViewMode, selected, setSelected, getBoundingBoxStyle }) => (
+  <>
+    <PromptGenerator />
+    {viewMode === "grid" ? (
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <div className="grid-wrapper" style={{ position: "relative", display: "inline-block" }}>
+          {selected && (
+            <div
+              className="group-highlight active"
+              style={getBoundingBoxStyle(selected.group)}
+            />
+          )}
+          <div className="grid">
+            {Array.from({ length: 256 }, (_, i) => (
+              <Tile
+                key={i + 1}
+                id={i + 1}
+                onClick={(tileId) => {
+                  const landmark = landmarks.find((lm) => lm.group.includes(tileId));
+                  if (landmark) setSelected(landmark);
+                }}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    ) : (
+      <MosaicMap />
+    )}
+  </>
+);
+
+
+
+
 const App = () => {
+  const { theme } = useContext(ThemeContext);
   const [selected, setSelected] = useState(null);
   const [page, setPage] = useState("home");
   const [viewMode, setViewMode] = useState("grid");
+
+
+
+  const location = useLocation();
+
+useEffect(() => {
+  // Close popup when navigating to a different page
+  if (location.pathname !== "/") {
+    setSelected(null);
+  }
+}, [location.pathname]);
+
+
 
   const selectedTileGroup = selected?.group || [];
 
@@ -75,7 +131,6 @@ const App = () => {
           </>
         );
       case "landmarks":
-        const LandmarksPage = React.lazy(() => import("./pages/LandmarksPage"));
         return (
           <Suspense fallback={<p>Loading landmarks...</p>}>
             <LandmarksPage />
@@ -87,24 +142,40 @@ const App = () => {
   };
 
   return (
-    <div className="container">
+    <div className={`container ${theme}`}>
       <Navbar setPage={setPage} setViewMode={setViewMode} viewMode={viewMode} />
       <ThemeToggle />
       <Routes>
-        <Route path="/" element={renderPage()} />
-        <Route path="/landmarks/:id" element={<LandmarkDetail />} />
-      </Routes>
+  <Route path="/" element={
+    <HomePage
+      viewMode={viewMode}
+      setViewMode={setViewMode}
+      selected={selected}
+      setSelected={setSelected}
+      getBoundingBoxStyle={getBoundingBoxStyle}
+    />
+  } />
+  <Route path="/landmarks" element={
+    <Suspense fallback={<p>Loading landmarks...</p>}>
+      <LandmarksPage />
+    </Suspense>
+  } />
+  <Route path="/contact" element={<ContactPage />} />
 
-      {selected && (
+  <Route path="/landmarks/:id" element={<LandmarkDetail />} />
+</Routes>
+
+
+      {selected && location.pathname === "/" && (
         <div className="landmark-popup">
           <button className="popup-close" onClick={() => setSelected(null)}>✖</button>
           <h2>{selected.name}</h2>
-          <img src={selected.image} alt={selected.name} />
+          <img src={`${import.meta.env.BASE_URL}${selected.image}`} alt={selected.name} />
           <p>{selected.descriptionShort}</p>
           <div className="popup-links">
             <a href={selected.link} target="_blank" rel="noreferrer">View on Map</a>
             <span> | </span>
-            <a href={`/landmarks/${selected.id}`} target="_blank" rel="noreferrer">Read More</a>
+            <Link to={`/landmarks/${selected.id}`}>Read More</Link>
           </div>
         </div>
       )}

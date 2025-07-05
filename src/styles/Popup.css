@@ -15,10 +15,13 @@
 .landmark-popup img {
   width: 100%;
   max-width: 100%;
-  height: auto;
+  max-height: 50vh; /* ✅ restricts image height to half of viewport */
+  object-fit: contain; /* ✅ keeps image aspect ratio */
   margin: 1rem 0;
   border-radius: 8px;
+  display: block;
 }
+
 
 .popup-close {
   position: absolute;
@@ -63,7 +66,7 @@
 
 
 .popup-close:hover {
-  color: red;
+  color: #0066cc;
 }
 
 .popup-links a {

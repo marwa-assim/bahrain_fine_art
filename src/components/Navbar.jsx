@@ -1,9 +1,10 @@
 import React from "react";
 import { useContext } from "react";
 import { ThemeContext } from "../contexts/ThemeContext";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-const Navbar = ({ setPage, setViewMode, viewMode }) => {
+const Navbar = ({ setViewMode, viewMode }) => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   const toggleView = () => {
@@ -16,10 +17,9 @@ const Navbar = ({ setPage, setViewMode, viewMode }) => {
         <span className="logo">🇧🇭 Bahrain Mosaic</span>
       </div>
       <div className="nav-right">
-        <button onClick={() => setPage("home")}>Home</button>
-        <button onClick={() => setPage("landmarks")}>Landmarks</button>
-        <button onClick={() => setPage("contact")}>Contact Us</button>
-        <button onClick={toggleTheme}>🌙 Toggle Theme</button>
+        <Link to="/" className="nav-link-button">Home</Link>
+        <Link to="/landmarks" className="nav-link-button">Landmarks</Link>
+        <Link to="/contact" className="nav-link-button">Contact Us</Link>
         <button onClick={toggleView}>
           {viewMode === "grid" ? "Mosaic View" : "Grid View"}
         </button>

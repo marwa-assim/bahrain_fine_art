@@ -46,20 +46,24 @@ const LandmarkDetail = () => {
          </div> 
         )}
 
-
+    
       {activeTab === "gallery" && (
-  landmark.galleryPath ? (
-    <GalleryTab
-  galleryPath={landmark.galleryPath}
-  landmarkId={landmark.id}
-  landmarkName={landmark.name}
-/>
-
-
+  landmark.gallery?.length > 0 ? (
+    <div className="gallery">
+      {landmark.gallery.map((img, index) => (
+        <img
+          key={index}
+          src={img}
+          alt={`${landmark.name} ${index + 1}`}
+          className="gallery-image"
+        />
+      ))}
+    </div>
   ) : (
     <p>No gallery images available.</p>
   )
 )}
+
 
 
         {activeTab === "map" && (
