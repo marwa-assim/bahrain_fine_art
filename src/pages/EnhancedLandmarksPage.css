@@ -9,13 +9,7 @@
 
 /* Header Section */
 .landmarks-header {
-  background: linear-gradient(
-    135deg,
-    rgba(17, 24, 39, 0.9) 0%,         /* Dark navy */
-    rgba(59, 130, 246, 0.6) 50%,      /* Blue */
-    rgba(191, 219, 254, 0.3) 100%     /* Soft light blue */
-  );
-
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 60px 40px;
   border-radius: 20px;

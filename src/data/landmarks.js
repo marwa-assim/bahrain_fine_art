@@ -1,8 +1,10 @@
+
 export const landmarks = [
   {
     id: 1,
     name: "Barbar Temple",
-    image: "/gallery/1_Barbar_Temple/1_BarbarTemple_01.jpeg",
+    category: "Historical Site",
+    image: "/bahrain_fine_art/gallery/1_Barbar_Temple/1_BarbarTemple_01.jpeg",
     galleryPath: "/gallery/1_Barbar_Temple/",
     gallery: [
      `${import.meta.env.BASE_URL}gallery/1_Barbar_Temple/1_BarbarTemple_01.jpeg`,
@@ -24,17 +26,18 @@ export const landmarks = [
   {
     id: 2,
     name: "Bahrain Fort",
-    image: "/gallery/2_Bahrain_Fort/2_BahrainFort_01.jpeg" ,
+    category: "Fortress",
+    image: "/bahrain_fine_art/gallery/2_Bahrain_Fort/2_BahrainFort_01.jpg" ,
     galleryPath: "/gallery/2_Bahrain_Fort/",
     gallery: [
-  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_01.jpeg`,
-  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_02.jpeg`,
-  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_03.jpeg`,
-  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_04.jpeg`,
-  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_05.jpeg`,
-  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_06.jpeg`,
-  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_07.jpeg`,
-  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_08.jpeg`,
+  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_01.jpg`,
+  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_02.jpg`,
+  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_03.jpg`,
+  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_04.jpg`,
+  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_05.jpg`,
+  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_06.jpg`,
+  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_07.jpg`,
+  `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_08.jpg`,
 ],
 
     group: [37, 38, 39, 53, 54, 55],
@@ -47,7 +50,8 @@ export const landmarks = [
   {
     id: 3,
     name: "Al Fateh Grand Mosque",
-    image: "/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_01.jpeg",
+    category: "Religious Site",
+    image: "/bahrain_fine_art/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_01.jpeg",
     galleryPath: "/gallery/3_Al_Fateh_Grand_Mosque/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_01.jpeg`,
@@ -70,7 +74,8 @@ export const landmarks = [
   {
     id: 4,
     name: "Bahrain World Trade Center",
-    image: "/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_01.jpeg",
+    category: "Modern Architecture",
+    image: "/bahrain_fine_art/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_01.jpeg",
     galleryPath: "/gallery/2_Bahrain_Fort/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_01.jpeg`,
@@ -93,7 +98,9 @@ export const landmarks = [
   {
     id: 5,
     name: "Arad Fort",
-    image: "/gallery/5_Arad_Fort/5_AradFort_01.jpeg",
+    category: "Fortress",
+    category: "Natural Wonder",
+    image: "/bahrain_fine_art/gallery/5_Arad_Fort/5_AradFort_01.jpeg",
     galleryPath: "/gallery/5_Arad_Fort/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/5_Arad_Fort/5_AradFort_01.jpeg`,
@@ -116,7 +123,8 @@ export const landmarks = [
   {
     id: 6,
     name: "Al Fateh Grand Mosque",
-    image: "/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_01.jpeg",
+    category: "Religious Site",
+    image: "/bahrain_fine_art/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_01.jpeg",
     galleryPath: "/gallery/6_Al_Fateh_Grand_Mosque/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_01.jpeg`,
@@ -139,7 +147,7 @@ export const landmarks = [
   {
     id: 7,
     name: "Shaikha Hissa Mosque",
-    image: "/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_01.jpeg",
+    image: "/bahrain_fine_art/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_01.jpeg",
     galleryPath: "/gallery/7_Shaikha_Hissa_Mosque/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_01.jpeg`,
@@ -164,7 +172,7 @@ export const landmarks = [
   {
     id: 8,
     name: "Tree of Life",
-    image: "/gallery/8_Tree_of_Life/8_TreeofLife_01.jpeg",
+    image: "/bahrain_fine_art/gallery/8_Tree_of_Life/8_TreeofLife_01.jpeg",
     galleryPath: "/gallery/8_Tree_of_Life/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/8_Tree_of_Life/8_TreeofLife_01.jpeg`,
@@ -187,7 +195,7 @@ export const landmarks = [
   {
     id: 9,
     name: "Riffa Fort",
-    image: "/gallery/9_Riffa_Fort/9_RiffaFort_01.jpeg",
+    image: "/bahrain_fine_art/gallery/9_Riffa_Fort/9_RiffaFort_01.jpeg",
     galleryPath: "/gallery/9_Riffa_Fort/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/9_Riffa_Fort/9_RiffaFort_01.jpeg`,
@@ -210,7 +218,7 @@ export const landmarks = [
   {
     id: 10,
     name: "NBB Tower",
-    image: "/gallery/10_NBB_Tower/10_NBBTower_01.jpeg",
+    image: "/bahrain_fine_art/gallery/10_NBB_Tower/10_NBBTower_01.jpeg",
     galleryPath: "/gallery/10_NBB_Tower/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/10_NBB_Tower/10_NBBTower_01.jpeg`,
@@ -233,7 +241,7 @@ export const landmarks = [
   {
     id: 11,
     name: "Bahrain National Theatre",
-    image: "/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_01.jpeg",
+    image: "/bahrain_fine_art/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_01.jpeg",
     galleryPath: "/gallery/11_Bahrain_National_Theatre/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_01.jpeg`,
@@ -256,7 +264,7 @@ export const landmarks = [
   {
     id: 12,
     name: "Al Jasra Handicrafts Center",
-    image: "/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_01.jpeg",
+    image: "/bahrain_fine_art/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_01.jpeg",
     galleryPath: "/gallery/12_Al_Jasra_Handicrafts_Center/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_01.jpeg`,
@@ -279,7 +287,7 @@ export const landmarks = [
   {
     id: 13,
     name: "Abdullah Al Zayed House for Bahraini Press Heritage",
-    image: "/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_01.jpeg",
+    image: "/bahrain_fine_art/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_01.jpeg",
     galleryPath: "/gallery/13_Abdullah_Al_Zayed_House/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_01.jpeg`,
@@ -302,7 +310,7 @@ export const landmarks = [
   {
     id: 14,
     name: "Sheikh Isa bin Ali House",
-    image: "/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_01.jpeg",
+    image: "/bahrain_fine_art/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_01.jpeg",
     galleryPath: "/gallery/14_Sheikh_Isa_bin_Ali_House/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_01.jpeg`,
@@ -325,7 +333,7 @@ export const landmarks = [
   {
     id: 15,
     name: "Shaikh Isa bin Salman Causeway",
-    image: "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_01.jpeg",
+    image: "/bahrain_fine_art/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_01.jpeg",
     galleryPath: "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_01.jpeg`,
@@ -348,7 +356,7 @@ export const landmarks = [
   {
     id: 16,
     name: "Wind Tower (Barjeel)",
-    image: "/gallery/16_Wind_Tower/16_WindTower_01.jpeg",
+    image: "/bahrain_fine_art/gallery/16_Wind_Tower/16_WindTower_01.jpeg",
     galleryPath: "/gallery/16_Wind_Tower/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/16_Wind_Tower/16_WindTower_01.jpeg`,
@@ -371,7 +379,7 @@ export const landmarks = [
   {
     id: 17,
     name: "Bahrain National Museum",
-    image: "/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_01.jpeg",
+    image: "/bahrain_fine_art/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_01.jpeg",
     galleryPath: "/gallery/17_Bahrain_National_Museum/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_01.jpeg`,
@@ -394,7 +402,7 @@ export const landmarks = [
   {
     id: 18,
     name: "Al-Khamis Mosque",
-    image: "/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_01.jpeg",
+    image: "/bahrain_fine_art/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_01.jpeg",
     galleryPath: "/gallery/18_AlKhamis_Mosque/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_01.jpeg`,
@@ -417,7 +425,7 @@ export const landmarks = [
   {
     id: 19,
     name: "Shaikh Ebrahim bin Mohammed Al Khalifa Center for Culture and Research",
-    image: "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenterforCultureandResearch_01.jpeg",
+    image: "/bahrain_fine_art/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenterforCultureandResearch_01.jpeg",
     galleryPath: "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenterforCultureandResearch_01.jpeg`,
@@ -440,7 +448,7 @@ export const landmarks = [
   {
     id: 20,
     name: "Bab Al Bahrain",
-    image: "/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_01.jpeg",
+    image: "/bahrain_fine_art/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_01.jpeg",
     galleryPath: "/gallery/20_Bab_Al_Bahrain/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_01.jpeg`,
@@ -463,7 +471,7 @@ export const landmarks = [
   {
     id: 21,
     name: "Imam Al-Sadiq Mosque",
-    image: "/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_01.jpeg",
+    image: "/bahrain_fine_art/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_01.jpeg",
     galleryPath: "/gallery/21_Imam_AlSadiq_Mosque/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_01.jpeg`,
@@ -486,7 +494,7 @@ export const landmarks = [
   {
     id: 22,
     name: "Shaikh Isa Bin Salman Mosque",
-    image: "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_01.jpeg",
+    image: "/bahrain_fine_art/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_01.jpeg",
     galleryPath: "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_01.jpeg`,

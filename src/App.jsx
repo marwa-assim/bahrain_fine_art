@@ -5,6 +5,8 @@ import { Routes, Route } from "react-router-dom"; // ✅ Remove BrowserRouter or
 import { Link } from 'react-router-dom';
 import Tile from "./components/Tile";
 import MosaicMap from "./components/MosaicMap";
+import HeroBanner from "./components/HeroBanner"; // Already done ✅
+import FeatureBoxes from "./components/FeatureBoxes";
 import ContactPage from "./pages/ContactPage";
 import Navbar from "./components/Navbar";
 import PromptGenerator from "./components/PromptGenerator";
@@ -18,8 +20,10 @@ import "./index.css";
 const LandmarksPage = React.lazy(() => import("./pages/LandmarksPage"));
 
 
+
 const HomePage = ({ viewMode, setViewMode, selected, setSelected, getBoundingBoxStyle }) => (
   <>
+  <HeroBanner />
     <PromptGenerator />
     {viewMode === "grid" ? (
       <div style={{ display: "flex", justifyContent: "center" }}>
@@ -47,6 +51,7 @@ const HomePage = ({ viewMode, setViewMode, selected, setSelected, getBoundingBox
     ) : (
       <MosaicMap />
     )}
+    <FeatureBoxes />
   </>
 );
 

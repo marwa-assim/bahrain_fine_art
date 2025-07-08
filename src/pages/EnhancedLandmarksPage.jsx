@@ -1,13 +1,12 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { landmarks } from "../data/landmarks.js";
-import './LandmarksPage.css';
+import './EnhancedLandmarksPage.css';
 
-const LandmarksPage = () => {
+const EnhancedLandmarksPage = ({ landmarks }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [sortBy, setSortBy] = useState('name');
-  const [viewMode, setViewMode] = useState('list'); // Default to grid view
+  const [viewMode, setViewMode] = useState('grid'); // Default to grid view
 
   // Enhanced categories with proper classification
   const categories = {
@@ -23,7 +22,6 @@ const LandmarksPage = () => {
   };
 
   // Enhanced landmarks data with proper categorization
-  
   const enhancedLandmarks = landmarks.map(landmark => ({
     ...landmark,
     category: getCategoryForLandmark(landmark.name),
@@ -283,8 +281,8 @@ const LandmarksPage = () => {
 
                 <div className="landmark-actions">
                   <Link 
-                   to={`/landmarks/${landmark.id}`}
-                   className="action-btn primary"
+                    to={`/landmark/${landmark.name.toLowerCase().replace(/\s+/g, '-')}`}
+                    className="action-btn primary"
                   >
                     📖 View Details
                   </Link>
@@ -333,5 +331,5 @@ const LandmarksPage = () => {
   );
 };
 
-export default LandmarksPage;
+export default EnhancedLandmarksPage;
 

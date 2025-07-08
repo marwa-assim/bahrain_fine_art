@@ -1,17 +1,16 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom'; // ✅ Add this
-
 import App from './App.jsx';
-import './index.css';
+import { HashRouter } from 'react-router-dom';
 import { ThemeProvider } from './contexts/ThemeContext.jsx';
-
+import { LanguageProvider } from './contexts/LanguageContext';
+import './index.css';
 if (
   location.pathname !== "/" &&
   !location.pathname.startsWith("/bahrain_fine_art/assets")
 ) {
-  sessionStorage.redirect = location.pathname;
+  sessionStorage.setItem("redirectPath", location.pathname);
 }
 
 
@@ -25,11 +24,13 @@ if (redirectPath) {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/bahrain_fine_art"> {/* ✅ Add this wrapper */}
+    <HashRouter> {/* ✅ Add this wrapper */}
       <ThemeProvider>
-        <App />
+        <LanguageProvider>
+         <App />
+        </LanguageProvider>
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

@@ -2,17 +2,17 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { landmarks } from "../data/landmarks";
-import Gallery from "../components/Gallery";
+import Gallery from "../components/EnhancedGallery";
 import GalleryTab from "../components/GalleryTab";
-import ARViewer from "../components/ARViewer";
-import AIGenerator from "../components/AIGenerator";
+import ARViewer from "../components/EnhancedARViewer";
+import AIGenerator from "../components/EnhancedAIGenerator";
 import { Link } from "react-router-dom";
 
 
 
 const LandmarkDetail = () => {
   const { id } = useParams();
-  const landmark = landmarks.find((lm) => lm.id.toString() === id);
+  const landmark = landmarks.find(l => l.id === parseInt(id));
 
   const [activeTab, setActiveTab] = React.useState("description");
   const [htmlContent, setHtmlContent] = useState("");
