@@ -27,7 +27,7 @@ export const landmarks = [
     id: 2,
     name: "Bahrain Fort",
     category: "Fortress",
-    image: "/bahrain_fine_art/gallery/2_Bahrain_Fort/2_BahrainFort_01.jpg" ,
+    image: "/bahrain_fine_art/gallery/2_Bahrain_Fort/2_BahrainFort_02.jpg" ,
     galleryPath: "/gallery/2_Bahrain_Fort/",
     gallery: [
   `${import.meta.env.BASE_URL}gallery/2_Bahrain_Fort/2_BahrainFort_01.jpg`,
