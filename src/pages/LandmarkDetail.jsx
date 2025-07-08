@@ -47,22 +47,8 @@ const LandmarkDetail = () => {
         )}
 
     
-      {activeTab === "gallery" && (
-  landmark.gallery?.length > 0 ? (
-    <div className="gallery">
-      {landmark.gallery.map((img, index) => (
-        <img
-          key={index}
-          src={img}
-          alt={`${landmark.name} ${index + 1}`}
-          className="gallery-image"
-        />
-      ))}
-    </div>
-  ) : (
-    <p>No gallery images available.</p>
-  )
-)}
+      {activeTab === "gallery" && <Gallery landmark={landmark} />}
+
 
 
 
@@ -84,8 +70,8 @@ const LandmarkDetail = () => {
 
         {activeTab === "ai" && <AIGenerator landmark={landmark} />}
 
-        {activeTab === "ar" && <ARViewer modelUrl={landmark.modelUrl} />
-}
+        {activeTab === "ar" && <ARViewer landmark={landmark} />}
+
       </div>
     </div>
   );

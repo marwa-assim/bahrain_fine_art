@@ -15,7 +15,7 @@ const EnhancedARViewer = ({ landmark }) => {
   const virtualTourData = {
     overview: {
       title: 'Overview',
-      images: landmark.gallery || [],
+      images: Array.isArray(landmark.gallery) ? landmark.gallery : [],
       hotspots: [
         { x: 30, y: 70, label: 'Interior View', target: 'interior' },
         { x: 70, y: 30, label: 'Aerial View', target: 'aerial' }
@@ -23,7 +23,7 @@ const EnhancedARViewer = ({ landmark }) => {
     },
     interior: {
       title: 'Interior Experience',
-      images: landmark.gallery?.slice(0, 4) || [],
+      images: Array.isArray(landmark.gallery) ? landmark.gallery.slice(0, 4) : [],
       hotspots: [
         { x: 20, y: 80, label: 'Back to Overview', target: 'overview' },
         { x: 80, y: 20, label: 'Ground Level', target: 'ground' }
@@ -31,7 +31,7 @@ const EnhancedARViewer = ({ landmark }) => {
     },
     aerial: {
       title: 'Aerial Perspective',
-      images: landmark.gallery?.slice(4, 8) || [],
+      images: Array.isArray(landmark.gallery) ? landmark.gallery.slice(4, 8) : [],
       hotspots: [
         { x: 50, y: 90, label: 'Back to Overview', target: 'overview' },
         { x: 10, y: 10, label: 'Ground Level', target: 'ground' }
@@ -39,7 +39,7 @@ const EnhancedARViewer = ({ landmark }) => {
     },
     ground: {
       title: 'Ground Level',
-      images: landmark.gallery || [],
+      images: Array.isArray(landmark.gallery) ? landmark.gallery : [],
       hotspots: [
         { x: 50, y: 10, label: 'Back to Overview', target: 'overview' },
         { x: 90, y: 50, label: 'Interior View', target: 'interior' }
@@ -123,8 +123,22 @@ const EnhancedARViewer = ({ landmark }) => {
     };
   }, [isDragging, dragStart, panPosition]);
 
+
+  if (currentTourData.images.length === 0) {
   return (
     <div className="enhanced-ar-viewer">
+      <p style={{ padding: '1rem', textAlign: 'center', color: '#777' }}>
+        🚫 No AR images available for this landmark.
+      </p>
+    </div>
+  );
+}
+
+
+  return (
+    <div className="enhanced-ar-viewer">
+
+      
       <div className="ar-header">
         <h3>🎯 Virtual Tour: {landmark.name}</h3>
         <div className="view-selector">
