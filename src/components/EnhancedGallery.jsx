@@ -7,21 +7,18 @@ const EnhancedGallery = ({ landmark }) => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const allImages = import.meta.glob('/src/assets/gallery/**/*.{jpg,jpeg,png,webp}', { eager: true });
-
-
   const galleryImages = [];
-const baseFolder = `${landmark.id}_${landmark.name.replace(/\s+/g, '_')}`;
 const imageExtensions = ['jpg', 'jpeg', 'png', 'webp'];
-const maxImages = 50;
 
-for (let i = 1; i <= maxImages; i++) {
-  for (const ext of imageExtensions) {
-    const cleanName = landmark.name.replace(/\s+/g, '');
-    const fileName = `${landmark.id}_${cleanName}_${i}.${ext}`;
-    const url = `/gallery/${baseFolder}/${fileName}`;
+const folderName = `${landmark.id}_${landmark.name.replace(/\s+/g, '_')}`;
+const baseImageName = `${landmark.id}_${landmark.name.replace(/\s/g, '')}`; // No underscore in image name
 
-    // Optional: Check image availability using browser preload trick (if you want to skip broken images)
+for (let i = 1; i <= 40; i++) {
+  for (let ext of imageExtensions) {
+    const paddedIndex = String(i).padStart(2, '0');
+    const fileName = `${baseImageName}_${paddedIndex}.${ext}`;
+    const url = `/gallery/${folderName}/${fileName}`;
+
     galleryImages.push({
       url,
       category: fileName.toLowerCase().includes('interior') ? 'interior'
@@ -32,6 +29,7 @@ for (let i = 1; i <= maxImages; i++) {
     });
   }
 }
+
 
 
   if (!galleryImages || galleryImages.length === 0) {
