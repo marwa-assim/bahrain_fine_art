@@ -7,26 +7,31 @@ const EnhancedGallery = ({ landmark }) => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // Dynamically import all images using Vite's import.meta.glob
-  const allImages = import.meta.glob('/public/gallery/**/*.{jpg,jpeg,png,webp}');
+  const allImages = import.meta.glob('/public/gallery/**/*.{jpg,jpeg,png,webp}', { eager: true });
+
   const galleryImages = [];
+const baseFolder = `${landmark.id}_${landmark.name.replace(/\s+/g, '_')}`;
+const imageExtensions = ['jpg', 'jpeg', 'png', 'webp'];
+const maxImages = 50;
 
-  Object.entries(allImages).forEach(([path]) => {
-    const match = path.match(/\/gallery\/(\d+_[^/]+)\/([^/]+)\/([^/]+\.(jpg|jpeg|png|webp))/i);
-    if (match) {
-      const [_, folderName, category, fileName] = match;
-      const landmarkFolder = landmark.name.toLowerCase().replace(/\s+/g, '_');
+for (let i = 1; i <= maxImages; i++) {
+  for (const ext of imageExtensions) {
+    const cleanName = landmark.name.replace(/\s+/g, '');
+    const fileName = `${landmark.id}_${cleanName}_${i}.${ext}`;
+    const url = `/gallery/${baseFolder}/${fileName}`;
 
-      if (folderName.toLowerCase().includes(landmarkFolder)) {
-        galleryImages.push({
-          url: path.replace('/public', ''),
-          category,
-          title: `${landmark.name} - ${category}`,
-          description: `Photo showing ${category} of ${landmark.name}`
-        });
-      }
-    }
-  });
+    // Optional: Check image availability using browser preload trick (if you want to skip broken images)
+    galleryImages.push({
+      url,
+      category: fileName.toLowerCase().includes('interior') ? 'interior'
+              : fileName.toLowerCase().includes('aerial') ? 'aerial'
+              : 'exterior',
+      title: `${landmark.name} - Image ${i}`,
+      description: `Photo showing ${landmark.name}`
+    });
+  }
+}
+
 
   if (!galleryImages || galleryImages.length === 0) {
     return <p style={{ padding: '1rem', textAlign: 'center' }}>No gallery images available.</p>;
