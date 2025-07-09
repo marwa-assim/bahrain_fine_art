@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Redirecting...</title>
-    <script>
-      // Save the path the user tried to access
-      sessionStorage.setItem("redirectPath", location.pathname);
-      // Redirect to the app
-      window.location.replace("/bahrain_fine_art/");
-    </script>
-  </head>
-  <body>
-    Redirecting to the app...
-  </body>
-</html>
+<script>
+  // Redirect unknown paths to index.html with hash-based routing
+  const path = location.pathname + location.search + location.hash;
+  location.replace('/bahrain_fine_art/index.html#' + path);
+</script>

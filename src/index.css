@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f7f7f7;
+}
+
+.container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(16, 64px);
+  grid-template-rows: repeat(16, 96px);
+  width: 1024px;  /* 146 * 7 */
+  height: 1728px; /* same as original */
+  margin: 0 auto;
+  padding: 0;
+  gap: 0;
+}
+
+.tile {
+  width: 64px;
+  height: 96px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+    border: none !important;
+}
+
+
+
+
+.tile:hover {
+  /* transform: scale(1.08); */
+  /* Remove the black outline on hover */
+  outline: none;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.group-highlight {
+  position: absolute;
+  border: 2px solid red;
+  pointer-events: none;
+  transition: transform 0.8s ease;
+  z-index: 10;
+}

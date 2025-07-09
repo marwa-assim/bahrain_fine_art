@@ -1,0 +1,48 @@
+.tile {
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 1x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tile:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.tile img {
+  max-width: 100;
+  max-height: 100%;
+}
+
+.tile.highlighted {
+  outline: 3px solid red;
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+
+.tile-label {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+
+.tile:hover .tile-label {
+  opacity: 1;
+}
