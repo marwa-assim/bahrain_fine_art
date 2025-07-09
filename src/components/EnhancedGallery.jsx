@@ -22,7 +22,7 @@ Object.entries(allImages).forEach(([path]) => {
                               : 'exterior';
 
       galleryImages.push({
-        url: path.replace('/public', ''),
+        url: `/gallery/${folderName}/${fileName}`,
         category: categoryGuess,
         title: `${landmark.name} - ${categoryGuess}`,
         description: `Photo showing ${categoryGuess} of ${landmark.name}`
