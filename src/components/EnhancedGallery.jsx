@@ -7,7 +7,7 @@ const EnhancedGallery = ({ landmark }) => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
- const allImages = import.meta.glob('/public/gallery/**/*.{jpg,jpeg,png,webp}', { eager: true });
+ const allImages = import.meta.glob('../assets/gallery/**/*.{jpg,jpeg,png,webp}', { eager: true });
 const galleryImages = [];
 
 Object.entries(allImages).forEach(([path]) => {
@@ -22,7 +22,7 @@ Object.entries(allImages).forEach(([path]) => {
                               : 'exterior';
 
       galleryImages.push({
-        url: `/gallery/${folderName}/${fileName}`,
+        url: allImages[path].default,
         category: categoryGuess,
         title: `${landmark.name} - ${categoryGuess}`,
         description: `Photo showing ${categoryGuess} of ${landmark.name}`
