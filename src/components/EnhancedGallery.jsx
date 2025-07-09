@@ -7,28 +7,30 @@ const EnhancedGallery = ({ landmark }) => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const galleryImages = [];
-const imageExtensions = ['jpg', 'jpeg', 'png', 'webp'];
+ const allImages = import.meta.glob('/public/gallery/**/*.{jpg,jpeg,png,webp}', { eager: true });
+const galleryImages = [];
 
-const folderName = `${landmark.id}_${landmark.name.replace(/\s+/g, '_')}`;
-const baseImageName = `${landmark.id}_${landmark.name.replace(/\s/g, '')}`; // No underscore in image name
+Object.entries(allImages).forEach(([path]) => {
+  const match = path.match(/\/gallery\/(\d+_[^/]+)\/([^/]+\.(jpg|jpeg|png|webp))/i);
+  if (match) {
+    const [_, folderName, fileName] = match;
+    const landmarkFolder = landmark.name.toLowerCase().replace(/\s+/g, '_');
 
-for (let i = 1; i <= 40; i++) {
-  for (let ext of imageExtensions) {
-    const paddedIndex = String(i).padStart(2, '0');
-    const fileName = `${baseImageName}_${paddedIndex}.${ext}`;
-    const url = `/gallery/${folderName}/${fileName}`;
+    if (folderName.toLowerCase().includes(landmarkFolder)) {
+      const categoryGuess = fileName.toLowerCase().includes('interior') ? 'interior'
+                              : fileName.toLowerCase().includes('aerial') ? 'aerial'
+                              : 'exterior';
 
-    galleryImages.push({
-      url,
-      category: fileName.toLowerCase().includes('interior') ? 'interior'
-              : fileName.toLowerCase().includes('aerial') ? 'aerial'
-              : 'exterior',
-      title: `${landmark.name} - Image ${i}`,
-      description: `Photo showing ${landmark.name}`
-    });
+      galleryImages.push({
+        url: path.replace('/public', ''),
+        category: categoryGuess,
+        title: `${landmark.name} - ${categoryGuess}`,
+        description: `Photo showing ${categoryGuess} of ${landmark.name}`
+      });
+    }
   }
-}
+});
+
 
 
 
