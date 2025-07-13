@@ -1,0 +1,769 @@
+{
+  "10_NBB_Tower": {
+    "aerial": [
+      "10_NBBTower_01.jpeg",
+      "10_NBBTower_05.jpg",
+      "10_NBBTower_11.jpeg"
+    ],
+    "overview": [
+      "10_NBBTower_02.jpg"
+    ],
+    "interior": [
+      "10_NBBTower_03.jpg",
+      "10_NBBTower_04.jpeg",
+      "10_NBBTower_06.jpg",
+      "10_NBBTower_07.jpeg"
+    ],
+    "exterior": [
+      "10_NBBTower_08.jpg",
+      "10_NBBTower_09.jpeg",
+      "10_NBBTower_10.jpg",
+      "10_NBBTower_12.png"
+    ]
+  },
+  "11_Bahrain_National_Theatre": {
+    "details": [
+      "11_BahrainNationalTheatre_01.jpg",
+      "11_BahrainNationalTheatre_04.jpg",
+      "11_BahrainNationalTheatre_08.jpg",
+      "11_BahrainNationalTheatre_09.jpeg",
+      "11_BahrainNationalTheatre_13.jpg",
+      "11_BahrainNationalTheatre_14.jpg",
+      "11_BahrainNationalTheatre_23.jpeg",
+      "11_BahrainNationalTheatre_24.jpg",
+      "11_BahrainNationalTheatre_31.jpeg"
+    ],
+    "interior": [
+      "11_BahrainNationalTheatre_02.jpg",
+      "11_BahrainNationalTheatre_05.jpeg"
+    ],
+    "aerial": [
+      "11_BahrainNationalTheatre_03.jpg",
+      "11_BahrainNationalTheatre_10.jpg",
+      "11_BahrainNationalTheatre_16.jpg",
+      "11_BahrainNationalTheatre_20.jpg",
+      "11_BahrainNationalTheatre_21.jpeg",
+      "11_BahrainNationalTheatre_25.jpg",
+      "11_BahrainNationalTheatre_26.jpeg",
+      "11_BahrainNationalTheatre_27.jpeg",
+      "11_BahrainNationalTheatre_28.jpeg",
+      "11_BahrainNationalTheatre_29.jpeg"
+    ],
+    "exterior": [
+      "11_BahrainNationalTheatre_06.jpg",
+      "11_BahrainNationalTheatre_07.png",
+      "11_BahrainNationalTheatre_12.png",
+      "11_BahrainNationalTheatre_15.jpeg",
+      "11_BahrainNationalTheatre_17.jpg",
+      "11_BahrainNationalTheatre_18.jpg",
+      "11_BahrainNationalTheatre_22.jpeg",
+      "11_BahrainNationalTheatre_30.jpg"
+    ],
+    "overview": [
+      "11_BahrainNationalTheatre_11.jpeg",
+      "11_BahrainNationalTheatre_19.jpg"
+    ]
+  },
+  "12_Al_Jasra_Handicrafts_Center": {
+    "exterior": [
+      "12_AlJasraHandicraftsCenter_01.jpg",
+      "12_AlJasraHandicraftsCenter_04.jpg",
+      "12_AlJasraHandicraftsCenter_08.jpg",
+      "12_AlJasraHandicraftsCenter_09.jpg",
+      "12_AlJasraHandicraftsCenter_15.png",
+      "12_AlJasraHandicraftsCenter_16.jpeg"
+    ],
+    "aerial": [
+      "12_AlJasraHandicraftsCenter_02.jpg",
+      "12_AlJasraHandicraftsCenter_12.jpg",
+      "12_AlJasraHandicraftsCenter_13.jpg"
+    ],
+    "details": [
+      "12_AlJasraHandicraftsCenter_03.jpg",
+      "12_AlJasraHandicraftsCenter_07.jpg",
+      "12_AlJasraHandicraftsCenter_14.jpeg",
+      "12_AlJasraHandicraftsCenter_21.jpeg"
+    ],
+    "interior": [
+      "12_AlJasraHandicraftsCenter_05.jpeg",
+      "12_AlJasraHandicraftsCenter_06.jpeg",
+      "12_AlJasraHandicraftsCenter_17.jpg",
+      "12_AlJasraHandicraftsCenter_19.jpeg"
+    ],
+    "overview": [
+      "12_AlJasraHandicraftsCenter_10.png",
+      "12_AlJasraHandicraftsCenter_18.jpg",
+      "12_AlJasraHandicraftsCenter_20.jpeg"
+    ]
+  },
+  "13_Abdullah_Al_Zayed_House": {
+    "aerial": [
+      "13_AbdullahAlZayedHouse_01.jpg",
+      "13_AbdullahAlZayedHouse_03.jpg",
+      "13_AbdullahAlZayedHouse_09.jpeg",
+      "13_AbdullahAlZayedHouse_11.jpeg",
+      "13_AbdullahAlZayedHouse_15.jpg"
+    ],
+    "interior": [
+      "13_AbdullahAlZayedHouse_02.jpg",
+      "13_AbdullahAlZayedHouse_13.jpg",
+      "13_AbdullahAlZayedHouse_14.jpeg"
+    ],
+    "overview": [
+      "13_AbdullahAlZayedHouse_04.jpeg",
+      "13_AbdullahAlZayedHouse_05.jpeg",
+      "13_AbdullahAlZayedHouse_07.jpeg",
+      "13_AbdullahAlZayedHouse_08.jpeg",
+      "13_AbdullahAlZayedHouse_20.jpg"
+    ],
+    "details": [
+      "13_AbdullahAlZayedHouse_06.jpeg",
+      "13_AbdullahAlZayedHouse_16.jpg",
+      "13_AbdullahAlZayedHouse_17.jpg"
+    ],
+    "exterior": [
+      "13_AbdullahAlZayedHouse_10.jpeg",
+      "13_AbdullahAlZayedHouse_12.jpeg",
+      "13_AbdullahAlZayedHouse_18.jpg",
+      "13_AbdullahAlZayedHouse_19.png"
+    ]
+  },
+  "14_Sheikh_Isa_bin_Ali_House": {
+    "overview": [
+      "14_SheikhIsabinAliHouse_01.jpg",
+      "14_SheikhIsabinAliHouse_06.jpg",
+      "14_SheikhIsabinAliHouse_07.jpg",
+      "14_SheikhIsabinAliHouse_09.jpeg",
+      "14_SheikhIsabinAliHouse_11.jpg",
+      "14_SheikhIsabinAliHouse_22.jpeg",
+      "14_SheikhIsabinAliHouse_23.jpg"
+    ],
+    "exterior": [
+      "14_SheikhIsabinAliHouse_02.jpeg",
+      "14_SheikhIsabinAliHouse_18.jpeg"
+    ],
+    "details": [
+      "14_SheikhIsabinAliHouse_03.jpeg",
+      "14_SheikhIsabinAliHouse_05.jpg",
+      "14_SheikhIsabinAliHouse_10.png",
+      "14_SheikhIsabinAliHouse_12.jpg",
+      "14_SheikhIsabinAliHouse_15.jpg",
+      "14_SheikhIsabinAliHouse_16.jpg"
+    ],
+    "aerial": [
+      "14_SheikhIsabinAliHouse_04.jpg",
+      "14_SheikhIsabinAliHouse_08.jpg",
+      "14_SheikhIsabinAliHouse_13.jpeg",
+      "14_SheikhIsabinAliHouse_17.jpeg"
+    ],
+    "interior": [
+      "14_SheikhIsabinAliHouse_14.jpeg",
+      "14_SheikhIsabinAliHouse_19.jpeg",
+      "14_SheikhIsabinAliHouse_20.jpg",
+      "14_SheikhIsabinAliHouse_21.jpg"
+    ]
+  },
+  "15_Shaikh_Isa_bin_Salman_Causeway": {
+    "overview": [
+      "15_ShaikhIsabinSalmanCauseway_01.jpeg",
+      "15_ShaikhIsabinSalmanCauseway_03.jpeg",
+      "15_ShaikhIsabinSalmanCauseway_04.jpg",
+      "15_ShaikhIsabinSalmanCauseway_10.jpeg"
+    ],
+    "details": [
+      "15_ShaikhIsabinSalmanCauseway_02.jpg",
+      "15_ShaikhIsabinSalmanCauseway_06.png"
+    ],
+    "aerial": [
+      "15_ShaikhIsabinSalmanCauseway_05.jpg"
+    ],
+    "exterior": [
+      "15_ShaikhIsabinSalmanCauseway_07.jpeg"
+    ],
+    "interior": [
+      "15_ShaikhIsabinSalmanCauseway_08.jpg",
+      "15_ShaikhIsabinSalmanCauseway_09.jpeg"
+    ]
+  },
+  "16_Wind_Tower": {
+    "exterior": [
+      "16_WindTower_01.jpeg",
+      "16_WindTower_02.png",
+      "16_WindTower_06.jpg"
+    ],
+    "aerial": [
+      "16_WindTower_03.jpg"
+    ],
+    "interior": [
+      "16_WindTower_04.png"
+    ],
+    "details": [
+      "16_WindTower_05.jpg"
+    ]
+  },
+  "17_Bahrain_National_Museum": {
+    "interior": [
+      "17_BahrainNationalMuseum_01.jpg",
+      "17_BahrainNationalMuseum_03.jpg",
+      "17_BahrainNationalMuseum_11.jpg",
+      "17_BahrainNationalMuseum_16.png"
+    ],
+    "exterior": [
+      "17_BahrainNationalMuseum_02.jpg",
+      "17_BahrainNationalMuseum_04.jpeg",
+      "17_BahrainNationalMuseum_06.jpg",
+      "17_BahrainNationalMuseum_08.jpg",
+      "17_BahrainNationalMuseum_12.jpeg",
+      "17_BahrainNationalMuseum_20.jpg",
+      "17_BahrainNationalMuseum_21.jpeg",
+      "17_BahrainNationalMuseum_31.jpeg"
+    ],
+    "details": [
+      "17_BahrainNationalMuseum_05.jpeg",
+      "17_BahrainNationalMuseum_17.jpg",
+      "17_BahrainNationalMuseum_23.jpeg",
+      "17_BahrainNationalMuseum_24.jpeg",
+      "17_BahrainNationalMuseum_25.jpeg",
+      "17_BahrainNationalMuseum_29.jpg"
+    ],
+    "aerial": [
+      "17_BahrainNationalMuseum_07.jpeg",
+      "17_BahrainNationalMuseum_13.jpg",
+      "17_BahrainNationalMuseum_14.jpg",
+      "17_BahrainNationalMuseum_15.jpg",
+      "17_BahrainNationalMuseum_18.jpg",
+      "17_BahrainNationalMuseum_22.jpg",
+      "17_BahrainNationalMuseum_26.jpg",
+      "17_BahrainNationalMuseum_30.jpeg"
+    ],
+    "overview": [
+      "17_BahrainNationalMuseum_09.jpeg",
+      "17_BahrainNationalMuseum_10.jpg",
+      "17_BahrainNationalMuseum_19.jpeg",
+      "17_BahrainNationalMuseum_27.jpg",
+      "17_BahrainNationalMuseum_28.jpeg"
+    ]
+  },
+  "18_AlKhamis_Mosque": {
+    "details": [
+      "18_AlKhamisMosque_01.jpg",
+      "18_AlKhamisMosque_07.jpg",
+      "18_AlKhamisMosque_12.jpg"
+    ],
+    "overview": [
+      "18_AlKhamisMosque_02.jpeg",
+      "18_AlKhamisMosque_06.jpeg",
+      "18_AlKhamisMosque_09.jpg",
+      "18_AlKhamisMosque_14.jpeg",
+      "18_AlKhamisMosque_15.jpeg"
+    ],
+    "aerial": [
+      "18_AlKhamisMosque_03.jpg",
+      "18_AlKhamisMosque_04.jpg",
+      "18_AlKhamisMosque_05.jpg",
+      "18_AlKhamisMosque_08.jpg",
+      "18_AlKhamisMosque_11.jpg"
+    ],
+    "interior": [
+      "18_AlKhamisMosque_10.jpg",
+      "18_AlKhamisMosque_13.jpg"
+    ]
+  },
+  "19_Shaikh_Ebrahim_Center_for_Culture_and_Research": {
+    "interior": [
+      "19_ShaikhEbrahimCenterforCultureandResearch_01.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_06.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_12.jpg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_14.jpg"
+    ],
+    "exterior": [
+      "19_ShaikhEbrahimCenterforCultureandResearch_02.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_18.jpg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_21.jpeg"
+    ],
+    "overview": [
+      "19_ShaikhEbrahimCenterforCultureandResearch_03.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_04.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_07.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_16.jpg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_20.jpg"
+    ],
+    "details": [
+      "19_ShaikhEbrahimCenterforCultureandResearch_05.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_17.jpg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_19.jpg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_22.jpeg"
+    ],
+    "aerial": [
+      "19_ShaikhEbrahimCenterforCultureandResearch_08.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_09.jpg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_10.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_11.jpg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_13.jpeg",
+      "19_ShaikhEbrahimCenterforCultureandResearch_15.jpg"
+    ]
+  },
+  "1_Barbar_Temple": {
+    "details": [
+      "1_BarbarTemple_01.jpeg",
+      "1_BarbarTemple_10.jpg",
+      "1_BarbarTemple_12.jpg",
+      "1_BarbarTemple_16.jpg",
+      "1_BarbarTemple_23.jpg",
+      "1_BarbarTemple_24.jpg",
+      "1_BarbarTemple_26.JPG"
+    ],
+    "aerial": [
+      "1_BarbarTemple_02.jpg",
+      "1_BarbarTemple_03.jpg",
+      "1_BarbarTemple_11.jpg",
+      "1_BarbarTemple_14.jpg",
+      "1_BarbarTemple_25.jpg"
+    ],
+    "interior": [
+      "1_BarbarTemple_04.jpg",
+      "1_BarbarTemple_06.jpg",
+      "1_BarbarTemple_08.jpg",
+      "1_BarbarTemple_15.jpg"
+    ],
+    "exterior": [
+      "1_BarbarTemple_05.jpg",
+      "1_BarbarTemple_17.jpg",
+      "1_BarbarTemple_19.jpg",
+      "1_BarbarTemple_20.jpg",
+      "1_BarbarTemple_21.jpg"
+    ],
+    "overview": [
+      "1_BarbarTemple_07.jpg",
+      "1_BarbarTemple_09.jpg",
+      "1_BarbarTemple_13.jpg",
+      "1_BarbarTemple_18.jpg",
+      "1_BarbarTemple_22.jpg"
+    ]
+  },
+  "20_Bab_Al_Bahrain": {
+    "interior": [
+      "20_BabAlBahrain_01.jpeg",
+      "20_BabAlBahrain_02.jpeg",
+      "20_BabAlBahrain_06.jpg",
+      "20_BabAlBahrain_14.jpg",
+      "20_BabAlBahrain_18.jpg",
+      "20_BabAlBahrain_26.jpg",
+      "20_BabAlBahrain_30.jpg"
+    ],
+    "aerial": [
+      "20_BabAlBahrain_03.jpeg",
+      "20_BabAlBahrain_05.jpg",
+      "20_BabAlBahrain_12.jpeg",
+      "20_BabAlBahrain_16.jpeg",
+      "20_BabAlBahrain_20.jpg",
+      "20_BabAlBahrain_22.jpg"
+    ],
+    "details": [
+      "20_BabAlBahrain_04.jpg",
+      "20_BabAlBahrain_09.jpeg",
+      "20_BabAlBahrain_10.jpg",
+      "20_BabAlBahrain_11.jpeg",
+      "20_BabAlBahrain_19.jpeg",
+      "20_BabAlBahrain_21.jpeg"
+    ],
+    "overview": [
+      "20_BabAlBahrain_07.jpeg",
+      "20_BabAlBahrain_13.jpeg",
+      "20_BabAlBahrain_15.jpg",
+      "20_BabAlBahrain_24.jpeg",
+      "20_BabAlBahrain_28.jpeg"
+    ],
+    "exterior": [
+      "20_BabAlBahrain_08.jpg",
+      "20_BabAlBahrain_17.jpg",
+      "20_BabAlBahrain_23.jpg",
+      "20_BabAlBahrain_25.jpeg",
+      "20_BabAlBahrain_27.jpeg",
+      "20_BabAlBahrain_29.jpeg"
+    ]
+  },
+  "21_Imam_AlSadiq_Mosque": {
+    "exterior": [
+      "21_ImamAlSadiqMosque_01.jpg"
+    ],
+    "overview": [
+      "21_ImamAlSadiqMosque_02.jpeg",
+      "21_ImamAlSadiqMosque_03.jpeg"
+    ],
+    "interior": [
+      "21_ImamAlSadiqMosque_04.jpeg"
+    ],
+    "aerial": [
+      "21_ImamAlSadiqMosque_05.jpeg"
+    ],
+    "details": [
+      "21_ImamAlSadiqMosque_06.jpeg",
+      "21_ImamAlSadiqMosque_07.jpg"
+    ]
+  },
+  "22_Shaikh_Isa_Bin_Salman_Mosque": {
+    "aerial": [
+      "22_ShaikhIsaBinSalmanMosque_01.jpg",
+      "22_ShaikhIsaBinSalmanMosque_03.jpg",
+      "22_ShaikhIsaBinSalmanMosque_11.jpeg",
+      "22_ShaikhIsaBinSalmanMosque_18.jpg"
+    ],
+    "overview": [
+      "22_ShaikhIsaBinSalmanMosque_02.jpg",
+      "22_ShaikhIsaBinSalmanMosque_04.jpg",
+      "22_ShaikhIsaBinSalmanMosque_06.jpeg",
+      "22_ShaikhIsaBinSalmanMosque_07.jpg",
+      "22_ShaikhIsaBinSalmanMosque_09.jpeg",
+      "22_ShaikhIsaBinSalmanMosque_19.jpg",
+      "22_ShaikhIsaBinSalmanMosque_20.jpg"
+    ],
+    "interior": [
+      "22_ShaikhIsaBinSalmanMosque_05.jpg",
+      "22_ShaikhIsaBinSalmanMosque_14.jpeg",
+      "22_ShaikhIsaBinSalmanMosque_15.jpg"
+    ],
+    "details": [
+      "22_ShaikhIsaBinSalmanMosque_08.jpeg",
+      "22_ShaikhIsaBinSalmanMosque_10.jpeg",
+      "22_ShaikhIsaBinSalmanMosque_12.jpeg",
+      "22_ShaikhIsaBinSalmanMosque_13.jpeg",
+      "22_ShaikhIsaBinSalmanMosque_17.jpeg"
+    ],
+    "exterior": [
+      "22_ShaikhIsaBinSalmanMosque_16.jpg"
+    ]
+  },
+  "2_Bahrain_Fort": {
+    "overview": [
+      "2_BahrainFort_01.jpg",
+      "2_BahrainFort_02.jpg",
+      "2_BahrainFort_03.jpg",
+      "2_BahrainFort_04.jpg",
+      "2_BahrainFort_15.jpg",
+      "2_BahrainFort_18.jpg",
+      "2_BahrainFort_21.jpg",
+      "2_BahrainFort_22.jpg",
+      "2_BahrainFort_26.jpg"
+    ],
+    "interior": [
+      "2_BahrainFort_05.jpg",
+      "2_BahrainFort_08.jpg",
+      "2_BahrainFort_17.jpg",
+      "2_BahrainFort_33.jpg",
+      "2_BahrainFort_34.jpg",
+      "2_BahrainFort_38.jpg"
+    ],
+    "aerial": [
+      "2_BahrainFort_06.jpg",
+      "2_BahrainFort_07.jpg",
+      "2_BahrainFort_16.jpg",
+      "2_BahrainFort_20.jpg",
+      "2_BahrainFort_23.jpg",
+      "2_BahrainFort_27.jpg",
+      "2_BahrainFort_31.jpg",
+      "2_BahrainFort_32.jpg",
+      "2_BahrainFort_36.jpg"
+    ],
+    "details": [
+      "2_BahrainFort_09.jpg",
+      "2_BahrainFort_10.jpg",
+      "2_BahrainFort_13.jpg",
+      "2_BahrainFort_19.jpg",
+      "2_BahrainFort_24.jpg",
+      "2_BahrainFort_25.jpg",
+      "2_BahrainFort_28.jpg",
+      "2_BahrainFort_30.jpg",
+      "2_BahrainFort_35.jpg",
+      "2_BahrainFort_37.jpg",
+      "2_BahrainFort_40.jpg",
+      "2_BahrainFort_41.jpg"
+    ],
+    "exterior": [
+      "2_BahrainFort_11.jpg",
+      "2_BahrainFort_12.jpg",
+      "2_BahrainFort_14.jpg",
+      "2_BahrainFort_29.jpg",
+      "2_BahrainFort_39.jpg",
+      "2_BahrainFort_42.jpg",
+      "2_BahrainFort_43.jpg"
+    ]
+  },
+  "3_Al_Fateh_Grand_Mosque": {
+    "details": [
+      "3_AlFatehGrandMosque_01.jpg",
+      "3_AlFatehGrandMosque_03.jpeg",
+      "3_AlFatehGrandMosque_06.jpg",
+      "3_AlFatehGrandMosque_15.jpeg",
+      "3_AlFatehGrandMosque_16.jpg",
+      "3_AlFatehGrandMosque_17.jpeg",
+      "3_AlFatehGrandMosque_19.jpeg",
+      "3_AlFatehGrandMosque_21.jpeg",
+      "3_AlFatehGrandMosque_27.jpeg",
+      "3_AlFatehGrandMosque_38.jpg"
+    ],
+    "aerial": [
+      "3_AlFatehGrandMosque_02.jpeg",
+      "3_AlFatehGrandMosque_05.jpeg",
+      "3_AlFatehGrandMosque_09.jpeg",
+      "3_AlFatehGrandMosque_29.jpeg",
+      "3_AlFatehGrandMosque_31.jpg",
+      "3_AlFatehGrandMosque_33.jpg",
+      "3_AlFatehGrandMosque_37.jpg"
+    ],
+    "exterior": [
+      "3_AlFatehGrandMosque_04.jpg",
+      "3_AlFatehGrandMosque_14.jpg",
+      "3_AlFatehGrandMosque_18.jpg",
+      "3_AlFatehGrandMosque_20.jpg",
+      "3_AlFatehGrandMosque_26.jpg",
+      "3_AlFatehGrandMosque_36.jpg"
+    ],
+    "overview": [
+      "3_AlFatehGrandMosque_07.jpeg",
+      "3_AlFatehGrandMosque_10.jpg",
+      "3_AlFatehGrandMosque_12.jpg",
+      "3_AlFatehGrandMosque_23.jpeg",
+      "3_AlFatehGrandMosque_24.jpg",
+      "3_AlFatehGrandMosque_28.jpg",
+      "3_AlFatehGrandMosque_30.jpg",
+      "3_AlFatehGrandMosque_34.jpg",
+      "3_AlFatehGrandMosque_39.jpg",
+      "3_AlFatehGrandMosque_41.jpg"
+    ],
+    "interior": [
+      "3_AlFatehGrandMosque_08.jpg",
+      "3_AlFatehGrandMosque_11.jpeg",
+      "3_AlFatehGrandMosque_13.jpeg",
+      "3_AlFatehGrandMosque_22.jpg",
+      "3_AlFatehGrandMosque_25.jpeg",
+      "3_AlFatehGrandMosque_32.jpg",
+      "3_AlFatehGrandMosque_35.jpg",
+      "3_AlFatehGrandMosque_40.jpg"
+    ]
+  },
+  "4_Bahrain_World_Trade_Center": {
+    "details": [
+      "4_BahrainWorldTradeCenter_01.jpg",
+      "4_BahrainWorldTradeCenter_02.jpeg",
+      "4_BahrainWorldTradeCenter_22.webp",
+      "4_BahrainWorldTradeCenter_24.jpg",
+      "4_BahrainWorldTradeCenter_25.jpeg"
+    ],
+    "exterior": [
+      "4_BahrainWorldTradeCenter_03.jpeg",
+      "4_BahrainWorldTradeCenter_06.jpeg",
+      "4_BahrainWorldTradeCenter_10.jpg",
+      "4_BahrainWorldTradeCenter_12.jpg",
+      "4_BahrainWorldTradeCenter_23.jpg"
+    ],
+    "overview": [
+      "4_BahrainWorldTradeCenter_04.jpeg",
+      "4_BahrainWorldTradeCenter_14.jpg",
+      "4_BahrainWorldTradeCenter_21.jpg",
+      "4_BahrainWorldTradeCenter_26.jpg",
+      "4_BahrainWorldTradeCenter_27.jpeg",
+      "4_BahrainWorldTradeCenter_28.webp"
+    ],
+    "aerial": [
+      "4_BahrainWorldTradeCenter_05.jpeg",
+      "4_BahrainWorldTradeCenter_08.jpeg",
+      "4_BahrainWorldTradeCenter_20.jpeg",
+      "4_BahrainWorldTradeCenter_22.jpeg"
+    ],
+    "interior": [
+      "4_BahrainWorldTradeCenter_07.jpeg",
+      "4_BahrainWorldTradeCenter_09.jpg",
+      "4_BahrainWorldTradeCenter_11.jpeg",
+      "4_BahrainWorldTradeCenter_13.png",
+      "4_BahrainWorldTradeCenter_15.webp",
+      "4_BahrainWorldTradeCenter_16.JPG",
+      "4_BahrainWorldTradeCenter_29.jpg",
+      "4_BahrainWorldTradeCenter_30.jpg"
+    ]
+  },
+  "5_Arad_Fort": {
+    "overview": [
+      "5_AradFort_01.jpg",
+      "5_AradFort_21.jpg",
+      "5_AradFort_27.jpeg"
+    ],
+    "aerial": [
+      "5_AradFort_02.jpeg",
+      "5_AradFort_05.jpg",
+      "5_AradFort_06.jpg",
+      "5_AradFort_07.jpg",
+      "5_AradFort_08.jpg",
+      "5_AradFort_11.jpeg",
+      "5_AradFort_20.jpg",
+      "5_AradFort_23.jpeg",
+      "5_AradFort_25.jpg",
+      "5_AradFort_26.jpeg"
+    ],
+    "interior": [
+      "5_AradFort_03.jpeg",
+      "5_AradFort_09.jpeg",
+      "5_AradFort_12.jpeg",
+      "5_AradFort_18.jpg",
+      "5_AradFort_19.jpg",
+      "5_AradFort_29.jpg"
+    ],
+    "details": [
+      "5_AradFort_04.jpeg",
+      "5_AradFort_13.jpg",
+      "5_AradFort_14.jpeg",
+      "5_AradFort_16.jpeg",
+      "5_AradFort_22.jpeg",
+      "5_AradFort_28.jpeg",
+      "5_AradFort_31.jpg",
+      "5_AradFort_32.jpg"
+    ],
+    "exterior": [
+      "5_AradFort_10.jpg",
+      "5_AradFort_15.jpg",
+      "5_AradFort_17.jpeg",
+      "5_AradFort_24.jpeg",
+      "5_AradFort_30.jpg"
+    ]
+  },
+  "6_Al_Fateh_Grand_Mosque": {
+    "exterior": [
+      "6_AlFatehGrandMosque_01.jpeg",
+      "6_AlFatehGrandMosque_02.jpeg",
+      "6_AlFatehGrandMosque_25.jpeg",
+      "6_AlFatehGrandMosque_34.jpg",
+      "6_AlFatehGrandMosque_35.jpg",
+      "6_AlFatehGrandMosque_38.jpg",
+      "6_AlFatehGrandMosque_40.jpg",
+      "6_AlFatehGrandMosque_41.jpg"
+    ],
+    "aerial": [
+      "6_AlFatehGrandMosque_03.jpg",
+      "6_AlFatehGrandMosque_04.jpg",
+      "6_AlFatehGrandMosque_06.jpg",
+      "6_AlFatehGrandMosque_11.jpeg",
+      "6_AlFatehGrandMosque_12.jpg",
+      "6_AlFatehGrandMosque_14.jpg",
+      "6_AlFatehGrandMosque_15.jpeg",
+      "6_AlFatehGrandMosque_24.jpg",
+      "6_AlFatehGrandMosque_29.jpeg"
+    ],
+    "overview": [
+      "6_AlFatehGrandMosque_05.jpeg",
+      "6_AlFatehGrandMosque_19.jpeg",
+      "6_AlFatehGrandMosque_21.jpeg",
+      "6_AlFatehGrandMosque_22.jpg",
+      "6_AlFatehGrandMosque_23.jpeg",
+      "6_AlFatehGrandMosque_26.jpg",
+      "6_AlFatehGrandMosque_30.jpg",
+      "6_AlFatehGrandMosque_36.jpg"
+    ],
+    "details": [
+      "6_AlFatehGrandMosque_07.jpeg",
+      "6_AlFatehGrandMosque_09.jpeg",
+      "6_AlFatehGrandMosque_10.jpg",
+      "6_AlFatehGrandMosque_13.jpeg",
+      "6_AlFatehGrandMosque_16.jpg",
+      "6_AlFatehGrandMosque_18.jpg",
+      "6_AlFatehGrandMosque_27.jpeg",
+      "6_AlFatehGrandMosque_28.jpg",
+      "6_AlFatehGrandMosque_33.jpg",
+      "6_AlFatehGrandMosque_37.jpg",
+      "6_AlFatehGrandMosque_39.jpg"
+    ],
+    "interior": [
+      "6_AlFatehGrandMosque_08.jpg",
+      "6_AlFatehGrandMosque_17.jpeg",
+      "6_AlFatehGrandMosque_20.jpg",
+      "6_AlFatehGrandMosque_31.jpg",
+      "6_AlFatehGrandMosque_32.jpg"
+    ]
+  },
+  "7_Shaikha_Hissa_Mosque": {
+    "exterior": [
+      "7_ShaikhaHissaMosque_01.jpeg",
+      "7_ShaikhaHissaMosque_03.jpeg",
+      "7_ShaikhaHissaMosque_04.jpeg"
+    ],
+    "interior": [
+      "7_ShaikhaHissaMosque_02.jpeg"
+    ],
+    "details": [
+      "7_ShaikhaHissaMosque_05.jpeg",
+      "7_ShaikhaHissaMosque_07.jpeg"
+    ],
+    "aerial": [
+      "7_ShaikhaHissaMosque_06.jpeg"
+    ]
+  },
+  "8_Tree_of_Life": {
+    "overview": [
+      "8_TreeofLife_01.jpg",
+      "8_TreeofLife_12.jpg",
+      "8_TreeofLife_13.jpeg"
+    ],
+    "details": [
+      "8_TreeofLife_02.jpg",
+      "8_TreeofLife_04.jpg",
+      "8_TreeofLife_05.JPG",
+      "8_TreeofLife_07.jpg",
+      "8_TreeofLife_14.jpeg",
+      "8_TreeofLife_15.jpg",
+      "8_TreeofLife_16.jpeg"
+    ],
+    "exterior": [
+      "8_TreeofLife_03.jpg",
+      "8_TreeofLife_10.jpg",
+      "8_TreeofLife_11.jpeg"
+    ],
+    "aerial": [
+      "8_TreeofLife_06.jpeg"
+    ],
+    "interior": [
+      "8_TreeofLife_08.jpg",
+      "8_TreeofLife_09.jpg"
+    ]
+  },
+  "9_Riffa_Fort": {
+    "exterior": [
+      "9_RiffaFort_01.jpg",
+      "9_RiffaFort_08.jpg",
+      "9_RiffaFort_11.jpg",
+      "9_RiffaFort_18.jpg",
+      "9_RiffaFort_20.jpeg",
+      "9_RiffaFort_27.jpg"
+    ],
+    "interior": [
+      "9_RiffaFort_02.jpg",
+      "9_RiffaFort_05.jpg",
+      "9_RiffaFort_12.jpeg",
+      "9_RiffaFort_17.jpeg",
+      "9_RiffaFort_24.jpg",
+      "9_RiffaFort_28.jpg"
+    ],
+    "aerial": [
+      "9_RiffaFort_03.jpeg",
+      "9_RiffaFort_06.jpeg",
+      "9_RiffaFort_07.jpeg",
+      "9_RiffaFort_21.jpg",
+      "9_RiffaFort_22.jpeg"
+    ],
+    "overview": [
+      "9_RiffaFort_04.jpeg",
+      "9_RiffaFort_09.jpg",
+      "9_RiffaFort_10.jpg",
+      "9_RiffaFort_15.jpg",
+      "9_RiffaFort_16.jpg",
+      "9_RiffaFort_23.jpg",
+      "9_RiffaFort_25.jpg",
+      "9_RiffaFort_26.jpg",
+      "9_RiffaFort_29.jpg",
+      "9_RiffaFort_30.jpeg"
+    ],
+    "details": [
+      "9_RiffaFort_13.jpeg",
+      "9_RiffaFort_14.jpg",
+      "9_RiffaFort_19.jpeg"
+    ]
+  }
+}
