@@ -1,0 +1,270 @@
+.enhanced-ar-viewer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.ar-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  color: white;
+}
+
+.ar-header h3 {
+  margin: 0 0 15px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.view-selector {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.view-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.view-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.view-btn.active {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-weight: 600;
+}
+
+.ar-main-container {
+  display: flex;
+  min-height: 500px;
+}
+
+.ar-image-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+
+.ar-main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+  transform-origin: center center;
+}
+
+.ar-hotspot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.hotspot-pulse {
+  width: 20px;
+  height: 20px;
+  background: #00bfff;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.6);
+}
+
+.hotspot-label {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.ar-hotspot:hover .hotspot-label {
+  opacity: 1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.ar-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 5;
+}
+
+.ar-nav-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.ar-nav-btn.prev {
+  left: 20px;
+}
+
+.ar-nav-btn.next {
+  right: 20px;
+}
+
+.ar-controls {
+  width: 300px;
+  background: #2a2a2a;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.zoom-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.control-btn {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.control-btn:hover {
+  background: #357abd;
+}
+
+.zoom-level {
+  font-size: 0.9rem;
+  color: #ccc;
+  text-align: center;
+}
+
+.image-counter {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.tour-info h4 {
+  margin: 0 0 10px 0;
+  color: #4a90e2;
+}
+
+.tour-info p {
+  margin: 5px 0;
+  font-size: 0.85rem;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+.ar-thumbnails {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background: #333;
+  overflow-x: auto;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.thumbnail:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.thumbnail.active {
+  opacity: 1;
+  border-color: #4a90e2;
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ar-main-container {
+    flex-direction: column;
+  }
+  
+  .ar-controls {
+    width: 100%;
+  }
+  
+  .view-selector {
+    justify-content: center;
+  }
+  
+  .ar-thumbnails {
+    justify-content: center;
+  }
+  
+  .ar-nav-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .ar-nav-btn.prev {
+    left: 10px;
+  }
+  
+  .ar-nav-btn.next {
+    right: 10px;
+  }
+}
+
+
+

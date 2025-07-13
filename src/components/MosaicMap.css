@@ -10,6 +10,11 @@
   overflow: hidden;
 }
 
+.mosaic-container:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
 .mosaic-background {
   width: 100%;
   display: block;

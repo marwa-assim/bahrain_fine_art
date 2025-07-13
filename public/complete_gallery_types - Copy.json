@@ -1,0 +1,1697 @@
+{
+  "1_Barbar_Temple": {
+    "name": "Barbar Temple",
+    "id": "barbar-temple",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/1_Barbar_Temple/1_BarbarTemple_03.jpg",
+          "type": "aerial",
+          "description": "Aerial overview of the ancient Barbar Temple archaeological site"
+        },
+        {
+          "src": "/gallery/1_Barbar_Temple/1_BarbarTemple_02.jpg",
+          "type": "aerial",
+          "description": "Bird's eye view showing the temple's circular structure and excavation layers"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/1_Barbar_Temple/1_BarbarTemple_03.jpg",
+          "type": "exterior",
+          "description": "Ground level view of the temple ruins and stone foundations"
+        },
+        {
+          "src": "/gallery/1_Barbar_Temple/1_BarbarTemple_04.jpg",
+          "type": "exterior",
+          "description": "Exterior walkway around the ancient temple complex"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/1_Barbar_Temple/1_BarbarTemple_05.jpg",
+          "type": "interior",
+          "description": "Interior chambers and archaeological excavation areas"
+        },
+        {
+          "src": "/gallery/1_Barbar_Temple/1_BarbarTemple_06.jpg",
+          "type": "interior",
+          "description": "Ancient stone structures and ritual areas within the temple"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/1_Barbar_Temple/1_BarbarTemple_07.jpg",
+          "type": "details",
+          "description": "Close-up of ancient stonework and archaeological artifacts"
+        },
+        {
+          "src": "/gallery/1_Barbar_Temple/1_BarbarTemple_08.jpg",
+          "type": "details",
+          "description": "Detailed view of temple inscriptions and carved stone elements"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "50m" },
+        { "id": "interior", "x": 45, "y": 50, "icon": "🏛️", "label": "Temple Interior", "distance": "40m" },
+        { "id": "details", "x": 75, "y": 65, "icon": "🔍", "label": "Artifacts", "distance": "35m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 55, "y": 60, "icon": "🚪", "label": "Enter Temple", "distance": "10m" },
+        { "id": "aerial", "x": 20, "y": 20, "icon": "🚁", "label": "Aerial View", "distance": "50m" },
+        { "id": "details", "x": 80, "y": 70, "icon": "🔍", "label": "Artifacts", "distance": "15m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 70, "y": 45, "icon": "🔍", "label": "Artifacts", "distance": "5m" },
+        { "id": "exterior", "x": 25, "y": 80, "icon": "↩️", "label": "Exit", "distance": "10m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "40m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 55, "icon": "🏛️", "label": "Temple Interior", "distance": "5m" },
+        { "id": "exterior", "x": 20, "y": 75, "icon": "↩️", "label": "Outside", "distance": "15m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial View", "distance": "35m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "2_Bahrain_Fort": {
+    "name": "Bahrain Fort",
+    "id": "bahrain-fort",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/2_Bahrain_Fort/2_BahrainFort_01.jpg",
+          "type": "aerial",
+          "description": "Spectacular aerial view of Bahrain Fort overlooking the Persian Gulf"
+        },
+        {
+          "src": "/gallery/2_Bahrain_Fort/2_BahrainFort_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective showing the fort's strategic coastal location"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/2_Bahrain_Fort/2_BahrainFort_03.jpeg",
+          "type": "exterior",
+          "description": "Imposing fortress walls and main entrance gate"
+        },
+        {
+          "src": "/gallery/2_Bahrain_Fort/2_BahrainFort_04.jpeg",
+          "type": "exterior",
+          "description": "Exterior fortification walls with traditional Islamic architecture"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/2_Bahrain_Fort/2_BahrainFort_05.jpeg",
+          "type": "interior",
+          "description": "Archaeological chambers and excavated rooms within the fort"
+        },
+        {
+          "src": "/gallery/2_Bahrain_Fort/2_BahrainFort_06.jpeg",
+          "type": "interior",
+          "description": "Interior passages and historical living quarters"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/2_Bahrain_Fort/2_BahrainFort_07.jpeg",
+          "type": "details",
+          "description": "Ancient stonework and architectural details of the fortress"
+        },
+        {
+          "src": "/gallery/2_Bahrain_Fort/2_BahrainFort_08.jpeg",
+          "type": "details",
+          "description": "Close-up of historical artifacts and museum displays"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 80, "icon": "⬇️", "label": "Ground Level", "distance": "50m" },
+        { "id": "interior", "x": 45, "y": 50, "icon": "🏛️", "label": "Inside Fort", "distance": "40m" },
+        { "id": "details", "x": 75, "y": 65, "icon": "🔍", "label": "Artifacts", "distance": "35m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 60, "y": 70, "icon": "🚪", "label": "Enter Fort", "distance": "10m" },
+        { "id": "aerial", "x": 20, "y": 20, "icon": "🚁", "label": "Aerial View", "distance": "50m" },
+        { "id": "details", "x": 85, "y": 60, "icon": "🔍", "label": "Details", "distance": "15m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 45, "icon": "🔍", "label": "Artifacts", "distance": "5m" },
+        { "id": "exterior", "x": 20, "y": 75, "icon": "↩️", "label": "Exit", "distance": "10m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Overview", "distance": "30m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 60, "icon": "🏛️", "label": "Chambers", "distance": "5m" },
+        { "id": "exterior", "x": 20, "y": 80, "icon": "↩️", "label": "Outside", "distance": "15m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "35m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "3_Al_Fateh_Grand_Mosque": {
+    "name": "Al Fateh Grand Mosque",
+    "id": "al-fateh-grand-mosque",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_01.jpeg",
+          "type": "aerial",
+          "description": "Magnificent aerial view of Al Fateh Grand Mosque with its iconic dome"
+        },
+        {
+          "src": "/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye view showing the mosque's impressive scale and minarets"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_03.jpeg",
+          "type": "exterior",
+          "description": "Grand entrance and exterior facade of the mosque"
+        },
+        {
+          "src": "/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_04.jpeg",
+          "type": "exterior",
+          "description": "Beautiful Islamic architecture and decorative elements"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_05.jpeg",
+          "type": "interior",
+          "description": "Stunning prayer hall with intricate Islamic calligraphy and design"
+        },
+        {
+          "src": "/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_06.jpeg",
+          "type": "interior",
+          "description": "Interior dome and architectural details of the prayer space"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_07.jpeg",
+          "type": "details",
+          "description": "Intricate Islamic geometric patterns and decorative artwork"
+        },
+        {
+          "src": "/gallery/3_Al_Fateh_Grand_Mosque/3_AlFatehGrandMosque_08.jpeg",
+          "type": "details",
+          "description": "Close-up of calligraphy and ornamental mosque features"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "45m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🕌", "label": "Prayer Hall", "distance": "35m" },
+        { "id": "details", "x": 70, "y": 60, "icon": "🔍", "label": "Details", "distance": "30m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 65, "icon": "🚪", "label": "Enter Mosque", "distance": "8m" },
+        { "id": "aerial", "x": 25, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "45m" },
+        { "id": "details", "x": 80, "y": 55, "icon": "🔍", "label": "Architecture", "distance": "12m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 40, "icon": "🔍", "label": "Calligraphy", "distance": "3m" },
+        { "id": "exterior", "x": 30, "y": 80, "icon": "↩️", "label": "Exit", "distance": "8m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "35m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 45, "y": 50, "icon": "🕌", "label": "Prayer Hall", "distance": "3m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "12m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "30m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "4_Bahrain_World_Trade_Center": {
+    "name": "Bahrain World Trade Center",
+    "id": "bahrain-world-trade-center",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_01.jpeg",
+          "type": "aerial",
+          "description": "Iconic aerial view of the twin towers with wind turbines"
+        },
+        {
+          "src": "/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the modern architectural marvel"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_03.jpeg",
+          "type": "exterior",
+          "description": "Ground level view of the impressive twin tower facade"
+        },
+        {
+          "src": "/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_04.jpeg",
+          "type": "exterior",
+          "description": "Exterior architecture showcasing the unique wind turbine design"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_05.jpeg",
+          "type": "interior",
+          "description": "Modern lobby and interior spaces of the business center"
+        },
+        {
+          "src": "/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_06.jpeg",
+          "type": "interior",
+          "description": "Contemporary office spaces and commercial areas"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_07.jpeg",
+          "type": "details",
+          "description": "Close-up of the innovative wind turbine technology"
+        },
+        {
+          "src": "/gallery/4_Bahrain_World_Trade_Center/4_BahrainWorldTradeCenter_08.jpeg",
+          "type": "details",
+          "description": "Architectural details and modern design elements"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 80, "icon": "⬇️", "label": "Ground Level", "distance": "200m" },
+        { "id": "interior", "x": 45, "y": 60, "icon": "🏢", "label": "Lobby", "distance": "180m" },
+        { "id": "details", "x": 70, "y": 40, "icon": "🔍", "label": "Turbines", "distance": "150m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 70, "icon": "🚪", "label": "Enter Building", "distance": "15m" },
+        { "id": "aerial", "x": 30, "y": 20, "icon": "🚁", "label": "Aerial View", "distance": "200m" },
+        { "id": "details", "x": 75, "y": 35, "icon": "🔍", "label": "Turbines", "distance": "25m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 80, "y": 30, "icon": "🔍", "label": "Technology", "distance": "20m" },
+        { "id": "exterior", "x": 20, "y": 80, "icon": "↩️", "label": "Exit", "distance": "15m" },
+        { "id": "aerial", "x": 50, "y": 10, "icon": "🚁", "label": "Overview", "distance": "180m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 65, "icon": "🏢", "label": "Lobby", "distance": "20m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "25m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Aerial", "distance": "150m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "5_Arad_Fort": {
+    "name": "Arad Fort",
+    "id": "arad-fort",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/5_Arad_Fort/5_AradFort_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the historic Arad Fort with its distinctive architecture"
+        },
+        {
+          "src": "/gallery/5_Arad_Fort/5_AradFort_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective showing the fort's strategic location"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/5_Arad_Fort/5_AradFort_03.jpeg",
+          "type": "exterior",
+          "description": "Impressive exterior walls and traditional Islamic fortification"
+        },
+        {
+          "src": "/gallery/5_Arad_Fort/5_AradFort_04.jpeg",
+          "type": "exterior",
+          "description": "Main entrance and defensive architecture of the fort"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/5_Arad_Fort/5_AradFort_05.jpeg",
+          "type": "interior",
+          "description": "Interior courtyard and historical chambers"
+        },
+        {
+          "src": "/gallery/5_Arad_Fort/5_AradFort_06.jpeg",
+          "type": "interior",
+          "description": "Traditional rooms and passages within the fort"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/5_Arad_Fort/5_AradFort_07.jpeg",
+          "type": "details",
+          "description": "Architectural details and historical preservation work"
+        },
+        {
+          "src": "/gallery/5_Arad_Fort/5_AradFort_08.jpeg",
+          "type": "details",
+          "description": "Close-up of traditional building techniques and materials"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "40m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🏰", "label": "Courtyard", "distance": "30m" },
+        { "id": "details", "x": 75, "y": 60, "icon": "🔍", "label": "Architecture", "distance": "25m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 55, "y": 65, "icon": "🚪", "label": "Enter Fort", "distance": "8m" },
+        { "id": "aerial", "x": 25, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "40m" },
+        { "id": "details", "x": 80, "y": 50, "icon": "🔍", "label": "Details", "distance": "12m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 70, "y": 45, "icon": "🔍", "label": "Architecture", "distance": "5m" },
+        { "id": "exterior", "x": 30, "y": 80, "icon": "↩️", "label": "Exit", "distance": "8m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Overview", "distance": "30m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 45, "y": 55, "icon": "🏰", "label": "Courtyard", "distance": "5m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "12m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "25m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "6_Al_Fateh_Grand_Mosque": {
+    "name": "Al Fateh Grand Mosque (Alternative Views)",
+    "id": "al-fateh-grand-mosque-alt",
+    "images": {
+      "night": [
+        {
+          "src": "/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_01.jpeg",
+          "type": "night",
+          "description": "Beautiful night illumination of Al Fateh Grand Mosque"
+        },
+        {
+          "src": "/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_02.jpeg",
+          "type": "night",
+          "description": "Evening view showcasing the mosque's architectural lighting"
+        }
+      ],
+      "panoramic": [
+        {
+          "src": "/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_03.jpeg",
+          "type": "panoramic",
+          "description": "Wide panoramic view of the mosque complex"
+        },
+        {
+          "src": "/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_04.jpeg",
+          "type": "panoramic",
+          "description": "Comprehensive view showing the mosque's surroundings"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_05.jpeg",
+          "type": "exterior",
+          "description": "Alternative exterior perspective of the grand mosque"
+        },
+        {
+          "src": "/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_06.jpeg",
+          "type": "exterior",
+          "description": "Different angle showcasing the mosque's grandeur"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_07.jpeg",
+          "type": "details",
+          "description": "Detailed architectural elements and decorative features"
+        },
+        {
+          "src": "/gallery/6_Al_Fateh_Grand_Mosque/6_AlFatehGrandMosque_08.jpeg",
+          "type": "details",
+          "description": "Close-up of Islamic artistic elements and craftsmanship"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "night": [
+        { "id": "panoramic", "x": 60, "y": 70, "icon": "🌅", "label": "Panoramic", "distance": "20m" },
+        { "id": "exterior", "x": 40, "y": 60, "icon": "🕌", "label": "Day View", "distance": "15m" },
+        { "id": "details", "x": 75, "y": 45, "icon": "🔍", "label": "Details", "distance": "10m" }
+      ],
+      "panoramic": [
+        { "id": "exterior", "x": 50, "y": 65, "icon": "🕌", "label": "Closer View", "distance": "25m" },
+        { "id": "night", "x": 30, "y": 30, "icon": "🌙", "label": "Night View", "distance": "20m" },
+        { "id": "details", "x": 70, "y": 55, "icon": "🔍", "label": "Details", "distance": "30m" }
+      ],
+      "exterior": [
+        { "id": "details", "x": 80, "y": 50, "icon": "🔍", "label": "Architecture", "distance": "8m" },
+        { "id": "night", "x": 25, "y": 25, "icon": "🌙", "label": "Night View", "distance": "15m" },
+        { "id": "panoramic", "x": 50, "y": 20, "icon": "🌅", "label": "Panoramic", "distance": "25m" }
+      ],
+      "details": [
+        { "id": "exterior", "x": 40, "y": 70, "icon": "🕌", "label": "Exterior", "distance": "8m" },
+        { "id": "night", "x": 20, "y": 30, "icon": "🌙", "label": "Night View", "distance": "10m" },
+        { "id": "panoramic", "x": 60, "y": 20, "icon": "🌅", "label": "Panoramic", "distance": "30m" }
+      ]
+    },
+    "sequentialOrder": ["panoramic", "exterior", "details", "night"]
+  },
+  "7_Shaikha_Hissa_Mosque": {
+    "name": "Shaikha Hissa Mosque",
+    "id": "shaikha-hissa-mosque",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of Shaikha Hissa Mosque with its elegant design"
+        },
+        {
+          "src": "/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective showing the mosque's architectural layout"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_03.jpeg",
+          "type": "exterior",
+          "description": "Beautiful exterior facade and entrance of the mosque"
+        },
+        {
+          "src": "/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_04.jpeg",
+          "type": "exterior",
+          "description": "Traditional Islamic architecture and decorative elements"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_05.jpeg",
+          "type": "interior",
+          "description": "Serene prayer hall with traditional Islamic design"
+        },
+        {
+          "src": "/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_06.jpeg",
+          "type": "interior",
+          "description": "Interior spaces showcasing Islamic architectural beauty"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_07.jpeg",
+          "type": "details",
+          "description": "Intricate Islamic patterns and decorative artwork"
+        },
+        {
+          "src": "/gallery/7_Shaikha_Hissa_Mosque/7_ShaikhaHissaMosque_08.jpeg",
+          "type": "details",
+          "description": "Close-up of architectural details and craftsmanship"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "35m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🕌", "label": "Prayer Hall", "distance": "25m" },
+        { "id": "details", "x": 70, "y": 60, "icon": "🔍", "label": "Details", "distance": "20m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 65, "icon": "🚪", "label": "Enter Mosque", "distance": "6m" },
+        { "id": "aerial", "x": 30, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "35m" },
+        { "id": "details", "x": 75, "y": 50, "icon": "🔍", "label": "Architecture", "distance": "10m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 40, "icon": "🔍", "label": "Patterns", "distance": "4m" },
+        { "id": "exterior", "x": 25, "y": 80, "icon": "↩️", "label": "Exit", "distance": "6m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "25m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 55, "icon": "🕌", "label": "Prayer Hall", "distance": "4m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "10m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "20m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "8_Tree_of_Life": {
+    "name": "Tree of Life",
+    "id": "tree-of-life",
+    "images": {
+      "panoramic": [
+        {
+          "src": "/gallery/8_Tree_of_Life/8_TreeofLife_01.jpeg",
+          "type": "panoramic",
+          "description": "Panoramic view of the legendary Tree of Life in the desert"
+        },
+        {
+          "src": "/gallery/8_Tree_of_Life/8_TreeofLife_02.jpeg",
+          "type": "panoramic",
+          "description": "Wide desert landscape showcasing the tree's isolation"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/8_Tree_of_Life/8_TreeofLife_03.jpeg",
+          "type": "exterior",
+          "description": "The magnificent Tree of Life standing alone in the desert"
+        },
+        {
+          "src": "/gallery/8_Tree_of_Life/8_TreeofLife_04.jpeg",
+          "type": "exterior",
+          "description": "Different perspective of the ancient tree's impressive canopy"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/8_Tree_of_Life/8_TreeofLife_05.jpeg",
+          "type": "details",
+          "description": "Close-up of the tree's ancient trunk and root system"
+        },
+        {
+          "src": "/gallery/8_Tree_of_Life/8_TreeofLife_06.jpeg",
+          "type": "details",
+          "description": "Detailed view of the tree's branches and foliage"
+        }
+      ],
+      "aerial": [
+        {
+          "src": "/gallery/8_Tree_of_Life/8_TreeofLife_07.jpeg",
+          "type": "aerial",
+          "description": "Aerial view showing the tree's remarkable survival in the desert"
+        },
+        {
+          "src": "/gallery/8_Tree_of_Life/8_TreeofLife_08.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the tree and surrounding desert"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "panoramic": [
+        { "id": "exterior", "x": 60, "y": 70, "icon": "🌳", "label": "Closer View", "distance": "50m" },
+        { "id": "aerial", "x": 30, "y": 30, "icon": "🚁", "label": "Aerial View", "distance": "100m" },
+        { "id": "details", "x": 75, "y": 60, "icon": "🔍", "label": "Tree Details", "distance": "40m" }
+      ],
+      "exterior": [
+        { "id": "details", "x": 70, "y": 65, "icon": "🔍", "label": "Tree Trunk", "distance": "10m" },
+        { "id": "panoramic", "x": 20, "y": 20, "icon": "🌅", "label": "Panoramic", "distance": "50m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Aerial View", "distance": "80m" }
+      ],
+      "details": [
+        { "id": "exterior", "x": 40, "y": 60, "icon": "🌳", "label": "Full Tree", "distance": "10m" },
+        { "id": "panoramic", "x": 20, "y": 30, "icon": "🌅", "label": "Panoramic", "distance": "40m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "70m" }
+      ],
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 80, "icon": "⬇️", "label": "Ground Level", "distance": "80m" },
+        { "id": "panoramic", "x": 30, "y": 70, "icon": "🌅", "label": "Panoramic", "distance": "100m" },
+        { "id": "details", "x": 75, "y": 65, "icon": "🔍", "label": "Details", "distance": "70m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "panoramic", "exterior", "details"]
+  },
+  "9_Riffa_Fort": {
+    "name": "Riffa Fort",
+    "id": "riffa-fort",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/9_Riffa_Fort/9_RiffaFort_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the historic Riffa Fort on elevated ground"
+        },
+        {
+          "src": "/gallery/9_Riffa_Fort/9_RiffaFort_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective showing the fort's strategic hilltop location"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/9_Riffa_Fort/9_RiffaFort_03.jpeg",
+          "type": "exterior",
+          "description": "Impressive exterior walls and traditional architecture"
+        },
+        {
+          "src": "/gallery/9_Riffa_Fort/9_RiffaFort_04.jpeg",
+          "type": "exterior",
+          "description": "Main entrance and defensive structures of the fort"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/9_Riffa_Fort/9_RiffaFort_05.jpeg",
+          "type": "interior",
+          "description": "Interior courtyard and historical chambers"
+        },
+        {
+          "src": "/gallery/9_Riffa_Fort/9_RiffaFort_06.jpeg",
+          "type": "interior",
+          "description": "Traditional rooms and passages within the fort"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/9_Riffa_Fort/9_RiffaFort_07.jpeg",
+          "type": "details",
+          "description": "Architectural details and restoration work"
+        },
+        {
+          "src": "/gallery/9_Riffa_Fort/9_RiffaFort_08.jpeg",
+          "type": "details",
+          "description": "Close-up of traditional building materials and techniques"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "45m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🏰", "label": "Courtyard", "distance": "35m" },
+        { "id": "details", "x": 75, "y": 60, "icon": "🔍", "label": "Architecture", "distance": "30m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 55, "y": 65, "icon": "🚪", "label": "Enter Fort", "distance": "10m" },
+        { "id": "aerial", "x": 25, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "45m" },
+        { "id": "details", "x": 80, "y": 50, "icon": "🔍", "label": "Details", "distance": "15m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 70, "y": 45, "icon": "🔍", "label": "Architecture", "distance": "8m" },
+        { "id": "exterior", "x": 30, "y": 80, "icon": "↩️", "label": "Exit", "distance": "10m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Overview", "distance": "35m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 45, "y": 55, "icon": "🏰", "label": "Courtyard", "distance": "8m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "15m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "30m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "10_NBB_Tower": {
+    "name": "NBB Tower",
+    "id": "nbb-tower",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/10_NBB_Tower/10_NBBTower_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the modern NBB Tower in Bahrain's financial district"
+        },
+        {
+          "src": "/gallery/10_NBB_Tower/10_NBBTower_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective showing the tower's prominence in the skyline"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/10_NBB_Tower/10_NBBTower_03.jpeg",
+          "type": "exterior",
+          "description": "Impressive exterior facade of the NBB Tower"
+        },
+        {
+          "src": "/gallery/10_NBB_Tower/10_NBBTower_04.jpeg",
+          "type": "exterior",
+          "description": "Ground level view showcasing the tower's modern architecture"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/10_NBB_Tower/10_NBBTower_05.jpeg",
+          "type": "interior",
+          "description": "Modern lobby and interior spaces of the banking tower"
+        },
+        {
+          "src": "/gallery/10_NBB_Tower/10_NBBTower_06.jpeg",
+          "type": "interior",
+          "description": "Contemporary office spaces and business facilities"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/10_NBB_Tower/10_NBBTower_07.jpeg",
+          "type": "details",
+          "description": "Architectural details and modern design elements"
+        },
+        {
+          "src": "/gallery/10_NBB_Tower/10_NBBTower_08.jpeg",
+          "type": "details",
+          "description": "Close-up of the tower's contemporary features and branding"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 80, "icon": "⬇️", "label": "Ground Level", "distance": "150m" },
+        { "id": "interior", "x": 45, "y": 60, "icon": "🏢", "label": "Lobby", "distance": "130m" },
+        { "id": "details", "x": 70, "y": 40, "icon": "🔍", "label": "Architecture", "distance": "120m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 70, "icon": "🚪", "label": "Enter Building", "distance": "12m" },
+        { "id": "aerial", "x": 30, "y": 20, "icon": "🚁", "label": "Aerial View", "distance": "150m" },
+        { "id": "details", "x": 75, "y": 35, "icon": "🔍", "label": "Details", "distance": "20m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 80, "y": 30, "icon": "🔍", "label": "Design", "distance": "15m" },
+        { "id": "exterior", "x": 20, "y": 80, "icon": "↩️", "label": "Exit", "distance": "12m" },
+        { "id": "aerial", "x": 50, "y": 10, "icon": "🚁", "label": "Overview", "distance": "130m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 65, "icon": "🏢", "label": "Lobby", "distance": "15m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "20m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Aerial", "distance": "120m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "11_Bahrain_National_Theatre": {
+    "name": "Bahrain National Theatre",
+    "id": "bahrain-national-theatre",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the stunning Bahrain National Theatre complex"
+        },
+        {
+          "src": "/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective showing the theatre's unique architectural design"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_03.jpeg",
+          "type": "exterior",
+          "description": "Magnificent exterior facade of the National Theatre"
+        },
+        {
+          "src": "/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_04.jpeg",
+          "type": "exterior",
+          "description": "Modern architectural design and entrance areas"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_05.jpeg",
+          "type": "interior",
+          "description": "Spectacular interior auditorium and performance spaces"
+        },
+        {
+          "src": "/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_06.jpeg",
+          "type": "interior",
+          "description": "Elegant lobby and public areas of the theatre"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_07.jpeg",
+          "type": "details",
+          "description": "Architectural details and artistic elements"
+        },
+        {
+          "src": "/gallery/11_Bahrain_National_Theatre/11_BahrainNationalTheatre_08.jpeg",
+          "type": "details",
+          "description": "Close-up of the theatre's sophisticated design features"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "60m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🎭", "label": "Auditorium", "distance": "45m" },
+        { "id": "details", "x": 70, "y": 60, "icon": "🔍", "label": "Architecture", "distance": "40m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 65, "icon": "🚪", "label": "Enter Theatre", "distance": "15m" },
+        { "id": "aerial", "x": 30, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "60m" },
+        { "id": "details", "x": 75, "y": 45, "icon": "🔍", "label": "Details", "distance": "18m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 40, "icon": "🔍", "label": "Design", "distance": "10m" },
+        { "id": "exterior", "x": 25, "y": 80, "icon": "↩️", "label": "Exit", "distance": "15m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "45m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 55, "icon": "🎭", "label": "Auditorium", "distance": "10m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "18m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "40m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "12_Al_Jasra_Handicrafts_Center": {
+    "name": "Al Jasra Handicrafts Center",
+    "id": "al-jasra-handicrafts-center",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the traditional Al Jasra Handicrafts Center"
+        },
+        {
+          "src": "/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the cultural heritage center"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_03.jpeg",
+          "type": "exterior",
+          "description": "Traditional architecture and entrance of the handicrafts center"
+        },
+        {
+          "src": "/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_04.jpeg",
+          "type": "exterior",
+          "description": "Exterior courtyard and traditional Bahraini design elements"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_05.jpeg",
+          "type": "interior",
+          "description": "Interior workshops and traditional craft demonstrations"
+        },
+        {
+          "src": "/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_06.jpeg",
+          "type": "interior",
+          "description": "Exhibition spaces showcasing local handicrafts and arts"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_07.jpeg",
+          "type": "details",
+          "description": "Traditional handicrafts and artisan work displays"
+        },
+        {
+          "src": "/gallery/12_Al_Jasra_Handicrafts_Center/12_AlJasraHandicraftsCenter_08.jpeg",
+          "type": "details",
+          "description": "Close-up of traditional Bahraini crafts and cultural artifacts"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "25m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🏛️", "label": "Workshops", "distance": "20m" },
+        { "id": "details", "x": 75, "y": 60, "icon": "🎨", "label": "Crafts", "distance": "18m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 55, "y": 65, "icon": "🚪", "label": "Enter Center", "distance": "8m" },
+        { "id": "aerial", "x": 25, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "25m" },
+        { "id": "details", "x": 80, "y": 50, "icon": "🎨", "label": "Handicrafts", "distance": "12m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 70, "y": 45, "icon": "🎨", "label": "Crafts", "distance": "5m" },
+        { "id": "exterior", "x": 30, "y": 80, "icon": "↩️", "label": "Exit", "distance": "8m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Overview", "distance": "20m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 45, "y": 55, "icon": "🏛️", "label": "Workshops", "distance": "5m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "12m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "18m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "13_Abdullah_Al_Zayed_House": {
+    "name": "Abdullah Al Zayed House",
+    "id": "abdullah-al-zayed-house",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the historic Abdullah Al Zayed House"
+        },
+        {
+          "src": "/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the traditional Bahraini house"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_03.jpeg",
+          "type": "exterior",
+          "description": "Traditional exterior architecture and courtyard entrance"
+        },
+        {
+          "src": "/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_04.jpeg",
+          "type": "exterior",
+          "description": "Historic facade and traditional Bahraini architectural elements"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_05.jpeg",
+          "type": "interior",
+          "description": "Traditional interior rooms and historical furnishings"
+        },
+        {
+          "src": "/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_06.jpeg",
+          "type": "interior",
+          "description": "Historic living spaces and traditional room layouts"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_07.jpeg",
+          "type": "details",
+          "description": "Traditional architectural details and decorative elements"
+        },
+        {
+          "src": "/gallery/13_Abdullah_Al_Zayed_House/13_AbdullahAlZayedHouse_08.jpeg",
+          "type": "details",
+          "description": "Close-up of historical artifacts and traditional craftsmanship"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "20m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🏠", "label": "Interior", "distance": "15m" },
+        { "id": "details", "x": 75, "y": 60, "icon": "🔍", "label": "Details", "distance": "12m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 55, "y": 65, "icon": "🚪", "label": "Enter House", "distance": "6m" },
+        { "id": "aerial", "x": 25, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "20m" },
+        { "id": "details", "x": 80, "y": 50, "icon": "🔍", "label": "Architecture", "distance": "8m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 70, "y": 45, "icon": "🔍", "label": "Artifacts", "distance": "4m" },
+        { "id": "exterior", "x": 30, "y": 80, "icon": "↩️", "label": "Exit", "distance": "6m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Overview", "distance": "15m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 45, "y": 55, "icon": "🏠", "label": "Rooms", "distance": "4m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "8m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "12m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "14_Sheikh_Isa_bin_Ali_House": {
+    "name": "Sheikh Isa bin Ali House",
+    "id": "sheikh-isa-bin-ali-house",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the historic Sheikh Isa bin Ali House complex"
+        },
+        {
+          "src": "/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the traditional royal residence"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_03.jpeg",
+          "type": "exterior",
+          "description": "Traditional exterior architecture of the royal house"
+        },
+        {
+          "src": "/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_04.jpeg",
+          "type": "exterior",
+          "description": "Historic facade and traditional Bahraini royal architecture"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_05.jpeg",
+          "type": "interior",
+          "description": "Royal chambers and traditional interior spaces"
+        },
+        {
+          "src": "/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_06.jpeg",
+          "type": "interior",
+          "description": "Historic rooms and traditional furnishings of the royal house"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_07.jpeg",
+          "type": "details",
+          "description": "Traditional architectural details and royal decorative elements"
+        },
+        {
+          "src": "/gallery/14_Sheikh_Isa_bin_Ali_House/14_SheikhIsabinAliHouse_08.jpeg",
+          "type": "details",
+          "description": "Close-up of historical artifacts and royal heritage items"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "25m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "👑", "label": "Royal Chambers", "distance": "20m" },
+        { "id": "details", "x": 75, "y": 60, "icon": "🔍", "label": "Heritage", "distance": "18m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 55, "y": 65, "icon": "🚪", "label": "Enter Palace", "distance": "8m" },
+        { "id": "aerial", "x": 25, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "25m" },
+        { "id": "details", "x": 80, "y": 50, "icon": "🔍", "label": "Architecture", "distance": "10m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 70, "y": 45, "icon": "🔍", "label": "Royal Items", "distance": "5m" },
+        { "id": "exterior", "x": 30, "y": 80, "icon": "↩️", "label": "Exit", "distance": "8m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Overview", "distance": "20m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 45, "y": 55, "icon": "👑", "label": "Royal Chambers", "distance": "5m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "10m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "18m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "15_Shaikh_Isa_bin_Salman_Causeway": {
+    "name": "Shaikh Isa bin Salman Causeway",
+    "id": "shaikh-isa-bin-salman-causeway",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_01.jpeg",
+          "type": "aerial",
+          "description": "Spectacular aerial view of the Shaikh Isa bin Salman Causeway"
+        },
+        {
+          "src": "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the causeway connecting islands"
+        }
+      ],
+      "panoramic": [
+        {
+          "src": "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_03.jpeg",
+          "type": "panoramic",
+          "description": "Wide panoramic view of the causeway and surrounding waters"
+        },
+        {
+          "src": "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_04.jpeg",
+          "type": "panoramic",
+          "description": "Comprehensive view showing the causeway's impressive span"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_05.jpeg",
+          "type": "exterior",
+          "description": "Ground level view of the causeway structure and roadway"
+        },
+        {
+          "src": "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_06.jpeg",
+          "type": "exterior",
+          "description": "Causeway approach and engineering marvel from road level"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_07.jpeg",
+          "type": "details",
+          "description": "Engineering details and construction elements of the causeway"
+        },
+        {
+          "src": "/gallery/15_Shaikh_Isa_bin_Salman_Causeway/15_ShaikhIsabinSalmanCauseway_08.jpeg",
+          "type": "details",
+          "description": "Close-up of the causeway's architectural and engineering features"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "panoramic", "x": 60, "y": 70, "icon": "🌅", "label": "Panoramic", "distance": "100m" },
+        { "id": "exterior", "x": 50, "y": 80, "icon": "⬇️", "label": "Road Level", "distance": "150m" },
+        { "id": "details", "x": 75, "y": 50, "icon": "🔍", "label": "Engineering", "distance": "120m" }
+      ],
+      "panoramic": [
+        { "id": "exterior", "x": 60, "y": 75, "icon": "🛣️", "label": "Causeway", "distance": "80m" },
+        { "id": "aerial", "x": 30, "y": 30, "icon": "🚁", "label": "Aerial View", "distance": "100m" },
+        { "id": "details", "x": 75, "y": 55, "icon": "🔍", "label": "Details", "distance": "90m" }
+      ],
+      "exterior": [
+        { "id": "details", "x": 70, "y": 45, "icon": "🔍", "label": "Engineering", "distance": "30m" },
+        { "id": "panoramic", "x": 20, "y": 20, "icon": "🌅", "label": "Panoramic", "distance": "80m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Aerial", "distance": "150m" }
+      ],
+      "details": [
+        { "id": "exterior", "x": 45, "y": 70, "icon": "🛣️", "label": "Road Level", "distance": "30m" },
+        { "id": "panoramic", "x": 25, "y": 30, "icon": "🌅", "label": "Panoramic", "distance": "90m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "120m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "panoramic", "exterior", "details"]
+  },
+  "16_Wind_Tower": {
+    "name": "Wind Tower",
+    "id": "wind-tower",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/16_Wind_Tower/16_WindTower_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the traditional Wind Tower architecture"
+        },
+        {
+          "src": "/gallery/16_Wind_Tower/16_WindTower_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective showing the tower's unique design"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/16_Wind_Tower/16_WindTower_03.jpeg",
+          "type": "exterior",
+          "description": "Traditional exterior of the historic Wind Tower"
+        },
+        {
+          "src": "/gallery/16_Wind_Tower/16_WindTower_04.jpeg",
+          "type": "exterior",
+          "description": "Ground level view showcasing traditional cooling architecture"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/16_Wind_Tower/16_WindTower_05.jpeg",
+          "type": "interior",
+          "description": "Interior spaces and traditional cooling system"
+        },
+        {
+          "src": "/gallery/16_Wind_Tower/16_WindTower_06.jpeg",
+          "type": "interior",
+          "description": "Traditional rooms and wind tower ventilation system"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/16_Wind_Tower/16_WindTower_07.jpeg",
+          "type": "details",
+          "description": "Traditional wind tower construction and cooling technology"
+        },
+        {
+          "src": "/gallery/16_Wind_Tower/16_WindTower_08.jpeg",
+          "type": "details",
+          "description": "Close-up of traditional architectural cooling elements"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 60, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "30m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🏠", "label": "Interior", "distance": "25m" },
+        { "id": "details", "x": 75, "y": 40, "icon": "🔍", "label": "Cooling System", "distance": "20m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 55, "y": 65, "icon": "🚪", "label": "Enter Tower", "distance": "8m" },
+        { "id": "aerial", "x": 25, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "30m" },
+        { "id": "details", "x": 80, "y": 35, "icon": "🔍", "label": "Technology", "distance": "12m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 70, "y": 30, "icon": "🔍", "label": "Cooling System", "distance": "5m" },
+        { "id": "exterior", "x": 30, "y": 80, "icon": "↩️", "label": "Exit", "distance": "8m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Overview", "distance": "25m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 45, "y": 60, "icon": "🏠", "label": "Interior", "distance": "5m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "12m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "20m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "17_Bahrain_National_Museum": {
+    "name": "Bahrain National Museum",
+    "id": "bahrain-national-museum",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the impressive Bahrain National Museum complex"
+        },
+        {
+          "src": "/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the museum's modern architecture"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_03.jpeg",
+          "type": "exterior",
+          "description": "Modern exterior facade of the National Museum"
+        },
+        {
+          "src": "/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_04.jpeg",
+          "type": "exterior",
+          "description": "Museum entrance and contemporary architectural design"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_05.jpeg",
+          "type": "interior",
+          "description": "Museum galleries and exhibition spaces"
+        },
+        {
+          "src": "/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_06.jpeg",
+          "type": "interior",
+          "description": "Interior displays and cultural artifact exhibitions"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_07.jpeg",
+          "type": "details",
+          "description": "Museum artifacts and cultural heritage displays"
+        },
+        {
+          "src": "/gallery/17_Bahrain_National_Museum/17_BahrainNationalMuseum_08.jpeg",
+          "type": "details",
+          "description": "Close-up of historical artifacts and museum collections"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "40m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🏛️", "label": "Galleries", "distance": "30m" },
+        { "id": "details", "x": 70, "y": 60, "icon": "🏺", "label": "Artifacts", "distance": "25m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 65, "icon": "🚪", "label": "Enter Museum", "distance": "12m" },
+        { "id": "aerial", "x": 30, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "40m" },
+        { "id": "details", "x": 75, "y": 45, "icon": "🏺", "label": "Collections", "distance": "15m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 40, "icon": "🏺", "label": "Artifacts", "distance": "8m" },
+        { "id": "exterior", "x": 25, "y": 80, "icon": "↩️", "label": "Exit", "distance": "12m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "30m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 55, "icon": "🏛️", "label": "Galleries", "distance": "8m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "15m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "25m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "18_AlKhamis_Mosque": {
+    "name": "AlKhamis Mosque",
+    "id": "alkhamis-mosque",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the historic AlKhamis Mosque with twin minarets"
+        },
+        {
+          "src": "/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of one of the oldest mosques in Bahrain"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_03.jpeg",
+          "type": "exterior",
+          "description": "Historic exterior with distinctive twin minarets"
+        },
+        {
+          "src": "/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_04.jpeg",
+          "type": "exterior",
+          "description": "Traditional Islamic architecture and ancient stonework"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_05.jpeg",
+          "type": "interior",
+          "description": "Historic prayer hall and traditional interior spaces"
+        },
+        {
+          "src": "/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_06.jpeg",
+          "type": "interior",
+          "description": "Ancient interior architecture and prayer areas"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_07.jpeg",
+          "type": "details",
+          "description": "Ancient architectural details and historical preservation"
+        },
+        {
+          "src": "/gallery/18_AlKhamis_Mosque/18_AlKhamisMosque_08.jpeg",
+          "type": "details",
+          "description": "Close-up of traditional Islamic architectural elements"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "35m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🕌", "label": "Prayer Hall", "distance": "25m" },
+        { "id": "details", "x": 70, "y": 40, "icon": "🔍", "label": "Minarets", "distance": "20m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 65, "icon": "🚪", "label": "Enter Mosque", "distance": "8m" },
+        { "id": "aerial", "x": 30, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "35m" },
+        { "id": "details", "x": 75, "y": 35, "icon": "🔍", "label": "Architecture", "distance": "12m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 30, "icon": "🔍", "label": "Ancient Details", "distance": "5m" },
+        { "id": "exterior", "x": 25, "y": 80, "icon": "↩️", "label": "Exit", "distance": "8m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "25m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 60, "icon": "🕌", "label": "Prayer Hall", "distance": "5m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "12m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "20m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "19_Shaikh_Ebrahim_Center_for_Culture_and_Research": {
+    "name": "Shaikh Ebrahim Center for Culture and Research",
+    "id": "shaikh-ebrahim-center",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenter_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the Shaikh Ebrahim Center cultural complex"
+        },
+        {
+          "src": "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenter_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the cultural and research center"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenter_03.jpeg",
+          "type": "exterior",
+          "description": "Modern exterior of the cultural center and research facility"
+        },
+        {
+          "src": "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenter_04.jpeg",
+          "type": "exterior",
+          "description": "Contemporary architecture and entrance areas"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenter_05.jpeg",
+          "type": "interior",
+          "description": "Interior spaces for cultural events and research activities"
+        },
+        {
+          "src": "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenter_06.jpeg",
+          "type": "interior",
+          "description": "Modern facilities and exhibition spaces"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenter_07.jpeg",
+          "type": "details",
+          "description": "Cultural displays and research center facilities"
+        },
+        {
+          "src": "/gallery/19_Shaikh_Ebrahim_Center_for_Culture_and_Research/19_ShaikhEbrahimCenter_08.jpeg",
+          "type": "details",
+          "description": "Close-up of cultural artifacts and research materials"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "45m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🏛️", "label": "Cultural Center", "distance": "35m" },
+        { "id": "details", "x": 70, "y": 60, "icon": "📚", "label": "Research", "distance": "30m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 65, "icon": "🚪", "label": "Enter Center", "distance": "15m" },
+        { "id": "aerial", "x": 30, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "45m" },
+        { "id": "details", "x": 75, "y": 45, "icon": "📚", "label": "Research", "distance": "18m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 40, "icon": "📚", "label": "Research", "distance": "10m" },
+        { "id": "exterior", "x": 25, "y": 80, "icon": "↩️", "label": "Exit", "distance": "15m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "35m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 55, "icon": "🏛️", "label": "Cultural Center", "distance": "10m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "18m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "30m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "20_Bab_Al_Bahrain": {
+    "name": "Bab Al Bahrain",
+    "id": "bab-al-bahrain",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the iconic Bab Al Bahrain gateway"
+        },
+        {
+          "src": "/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the historic entrance to Manama Souq"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_03.jpeg",
+          "type": "exterior",
+          "description": "Majestic exterior of the Bab Al Bahrain historic gateway"
+        },
+        {
+          "src": "/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_04.jpeg",
+          "type": "exterior",
+          "description": "Traditional Islamic architecture and decorative elements"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_05.jpeg",
+          "type": "interior",
+          "description": "Interior passages and traditional market entrance"
+        },
+        {
+          "src": "/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_06.jpeg",
+          "type": "interior",
+          "description": "Historic interior spaces and traditional souq entrance"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_07.jpeg",
+          "type": "details",
+          "description": "Architectural details and traditional Islamic decorative elements"
+        },
+        {
+          "src": "/gallery/20_Bab_Al_Bahrain/20_BabAlBahrain_08.jpeg",
+          "type": "details",
+          "description": "Close-up of ornamental features and historical craftsmanship"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "30m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🚪", "label": "Gateway", "distance": "25m" },
+        { "id": "details", "x": 70, "y": 60, "icon": "🔍", "label": "Architecture", "distance": "20m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 65, "icon": "🚪", "label": "Enter Gateway", "distance": "5m" },
+        { "id": "aerial", "x": 30, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "30m" },
+        { "id": "details", "x": 75, "y": 45, "icon": "🔍", "label": "Details", "distance": "8m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 40, "icon": "🔍", "label": "Decorations", "distance": "3m" },
+        { "id": "exterior", "x": 25, "y": 80, "icon": "↩️", "label": "Exit", "distance": "5m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "25m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 60, "icon": "🚪", "label": "Gateway", "distance": "3m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "8m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "20m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "21_Imam_AlSadiq_Mosque": {
+    "name": "Imam AlSadiq Mosque",
+    "id": "imam-alsadiq-mosque",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the beautiful Imam AlSadiq Mosque"
+        },
+        {
+          "src": "/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the mosque's architectural design"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_03.jpeg",
+          "type": "exterior",
+          "description": "Elegant exterior facade and entrance of the mosque"
+        },
+        {
+          "src": "/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_04.jpeg",
+          "type": "exterior",
+          "description": "Traditional Islamic architecture and decorative elements"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_05.jpeg",
+          "type": "interior",
+          "description": "Beautiful prayer hall with Islamic architectural features"
+        },
+        {
+          "src": "/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_06.jpeg",
+          "type": "interior",
+          "description": "Interior spaces showcasing Islamic design and calligraphy"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_07.jpeg",
+          "type": "details",
+          "description": "Intricate Islamic patterns and decorative artwork"
+        },
+        {
+          "src": "/gallery/21_Imam_AlSadiq_Mosque/21_ImamAlSadiqMosque_08.jpeg",
+          "type": "details",
+          "description": "Close-up of architectural details and Islamic craftsmanship"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "35m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🕌", "label": "Prayer Hall", "distance": "25m" },
+        { "id": "details", "x": 70, "y": 60, "icon": "🔍", "label": "Details", "distance": "20m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 65, "icon": "🚪", "label": "Enter Mosque", "distance": "6m" },
+        { "id": "aerial", "x": 30, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "35m" },
+        { "id": "details", "x": 75, "y": 50, "icon": "🔍", "label": "Architecture", "distance": "10m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 40, "icon": "🔍", "label": "Patterns", "distance": "4m" },
+        { "id": "exterior", "x": 25, "y": 80, "icon": "↩️", "label": "Exit", "distance": "6m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "25m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 55, "icon": "🕌", "label": "Prayer Hall", "distance": "4m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "10m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "20m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  },
+  "22_Shaikh_Isa_Bin_Salman_Mosque": {
+    "name": "Shaikh Isa Bin Salman Mosque",
+    "id": "shaikh-isa-bin-salman-mosque",
+    "images": {
+      "aerial": [
+        {
+          "src": "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_01.jpeg",
+          "type": "aerial",
+          "description": "Aerial view of the magnificent Shaikh Isa Bin Salman Mosque"
+        },
+        {
+          "src": "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_02.jpeg",
+          "type": "aerial",
+          "description": "Bird's eye perspective of the mosque's grand architecture"
+        }
+      ],
+      "exterior": [
+        {
+          "src": "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_03.jpeg",
+          "type": "exterior",
+          "description": "Grand exterior facade and entrance of the mosque"
+        },
+        {
+          "src": "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_04.jpeg",
+          "type": "exterior",
+          "description": "Impressive Islamic architecture and decorative elements"
+        }
+      ],
+      "interior": [
+        {
+          "src": "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_05.jpeg",
+          "type": "interior",
+          "description": "Magnificent prayer hall with intricate Islamic design"
+        },
+        {
+          "src": "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_06.jpeg",
+          "type": "interior",
+          "description": "Interior spaces showcasing Islamic architectural beauty"
+        }
+      ],
+      "details": [
+        {
+          "src": "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_07.jpeg",
+          "type": "details",
+          "description": "Intricate Islamic geometric patterns and calligraphy"
+        },
+        {
+          "src": "/gallery/22_Shaikh_Isa_Bin_Salman_Mosque/22_ShaikhIsaBinSalmanMosque_08.jpeg",
+          "type": "details",
+          "description": "Close-up of ornamental features and Islamic artistic elements"
+        }
+      ]
+    },
+    "navigationPoints": {
+      "aerial": [
+        { "id": "exterior", "x": 55, "y": 75, "icon": "⬇️", "label": "Ground Level", "distance": "45m" },
+        { "id": "interior", "x": 50, "y": 55, "icon": "🕌", "label": "Prayer Hall", "distance": "35m" },
+        { "id": "details", "x": 70, "y": 60, "icon": "🔍", "label": "Details", "distance": "30m" }
+      ],
+      "exterior": [
+        { "id": "interior", "x": 50, "y": 65, "icon": "🚪", "label": "Enter Mosque", "distance": "8m" },
+        { "id": "aerial", "x": 30, "y": 25, "icon": "🚁", "label": "Aerial View", "distance": "45m" },
+        { "id": "details", "x": 75, "y": 45, "icon": "🔍", "label": "Architecture", "distance": "12m" }
+      ],
+      "interior": [
+        { "id": "details", "x": 75, "y": 40, "icon": "🔍", "label": "Calligraphy", "distance": "5m" },
+        { "id": "exterior", "x": 25, "y": 80, "icon": "↩️", "label": "Exit", "distance": "8m" },
+        { "id": "aerial", "x": 50, "y": 15, "icon": "🚁", "label": "Overview", "distance": "35m" }
+      ],
+      "details": [
+        { "id": "interior", "x": 40, "y": 55, "icon": "🕌", "label": "Prayer Hall", "distance": "5m" },
+        { "id": "exterior", "x": 25, "y": 75, "icon": "↩️", "label": "Outside", "distance": "12m" },
+        { "id": "aerial", "x": 50, "y": 20, "icon": "🚁", "label": "Aerial", "distance": "30m" }
+      ]
+    },
+    "sequentialOrder": ["aerial", "exterior", "interior", "details"]
+  }
+}
+

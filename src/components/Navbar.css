@@ -1,10 +1,12 @@
 .navbar {
   background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
   padding: 0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
 }
 
 .nav-container {
@@ -17,25 +19,62 @@
 }
 
 .nav-left {
-  flex: 1;
   display: flex;
-  justify-content: flex-start; /* ✅ Pushes logo to the left */
+  justify-content: flex-start;
   align-items: center;
   
 }
 
-.nav-left .logo {
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-center .nav-link-button {
+  font-size: 1.5rem; /* You can increase to 1.4rem or 1.5rem if needed */
+  font-weight: 500;
+}
+
+.logo {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
   text-decoration: none;
-  gap: 6rem;
+  display: inline-block;
 }
+
+
+.nav-right-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.view-lang-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-right: 1rem;
+}
+
+.theme-group {
+  margin-left: 1rem; /* separate it visually */
+}
+
 
 .nav-right {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .nav-link-button {

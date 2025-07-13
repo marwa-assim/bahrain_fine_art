@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { landmarks } from "../data/landmarks.js";
 import './LandmarksPage.css';
@@ -6,8 +6,19 @@ import './LandmarksPage.css';
 const LandmarksPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [sortBy, setSortBy] = useState('name');
-  const [viewMode, setViewMode] = useState('list'); // Default to grid view
+  const [sortBy, setSortBy] = useState('id');
+  const [viewMode, setViewMode] = useState('grid'); // Default to grid view
+  const [galleryMap, setGalleryMap] = useState({});
+  const fallbackImage = '/bahrain_fine_art/default.jpg'; // Make sure this image exists in public folder
+
+
+  useEffect(() => {
+  fetch('/bahrain_fine_art/galleryIndex.json')
+    .then(res => res.json())
+    .then(data => setGalleryMap(data))
+    .catch(err => console.error('Gallery index load error:', err));
+}, []);
+
 
   // Enhanced categories with proper classification
   const categories = {
@@ -103,6 +114,17 @@ const LandmarksPage = () => {
     return facilitiesMap[name] || ['Parking', 'Information Center'];
   }
 
+  function getLandmarkPreviewImage(landmark) {
+  const folderPrefix = `${landmark.id}_`;
+  const folderKey = Object.keys(galleryMap).find(key => key.startsWith(folderPrefix));
+
+  if (folderKey && galleryMap[folderKey].length > 0) {
+    return `/bahrain_fine_art/gallery/${folderKey}/${galleryMap[folderKey][0]}`;
+  }
+
+  return ''; // or null
+}
+
   // Filter and search logic
   const filteredLandmarks = useMemo(() => {
     let filtered = enhancedLandmarks;
@@ -154,7 +176,7 @@ const LandmarksPage = () => {
       {/* Header Section */}
       <div className="landmarks-header">
         <div className="header-content">
-          <h1>🏛️ Discover Bahrain's Heritage</h1>
+          <h1>🏛️ Discover Bahrain's  <span className="hero-highlight"> Rich Heritage</span></h1>
           <p className="header-subtitle">
             Explore {enhancedLandmarks.length} magnificent landmarks that showcase Bahrain's rich cultural heritage, 
             from ancient forts to modern architectural marvels.
@@ -234,7 +256,7 @@ const LandmarksPage = () => {
       </div>
 
       {/* Landmarks Grid/List */}
-      <div className={`landmarks-container ${viewMode}`}>
+      <div className={`landmarks-container ${viewMode === 'grid' ? 'landmarks-grid' : 'list'}`}>
         {filteredLandmarks.length === 0 ? (
           <div className="no-results">
             <h3>No landmarks found</h3>
@@ -244,7 +266,15 @@ const LandmarksPage = () => {
           filteredLandmarks.map((landmark, index) => (
             <div key={index} className="landmark-card">
               <div className="landmark-image">
-                <img src={landmark.image} alt={landmark.name} />
+                {getLandmarkPreviewImage(landmark) ? (
+              <img 
+              src={getLandmarkPreviewImage(landmark) || fallbackImage} 
+              alt={landmark.name} 
+              onError={(e) => { e.target.src = fallbackImage; }} 
+              />
+                ) : (
+               <div className="image-placeholder">No image available</div>
+                )}
                 <div className="landmark-category-badge">
                   {categories[landmark.category]}
                 </div>

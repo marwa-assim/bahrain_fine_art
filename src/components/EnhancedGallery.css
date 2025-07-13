@@ -94,19 +94,19 @@
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
-.image-container {
+.myimage-container {
   position: relative;
   overflow: hidden;
 }
 
-.image-container img {
+.myimage-container img {
   width: 100%;
   height: 250px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
 
-.gallery-item:hover .image-container img {
+.gallery-item:hover .myimage-container img {
   transform: scale(1.05);
 }
 
@@ -415,4 +415,3 @@
     align-items: flex-start;
   }
 }
-

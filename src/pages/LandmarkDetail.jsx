@@ -13,6 +13,8 @@ import { Link } from "react-router-dom";
 const LandmarkDetail = () => {
   const { id } = useParams();
   const landmark = landmarks.find(l => l.id === parseInt(id));
+  const [jsonData, setJsonData] = useState(null);
+const [landmarkKey, setLandmarkKey] = useState(null);
 
   const [activeTab, setActiveTab] = React.useState("description");
   const [htmlContent, setHtmlContent] = useState("");
@@ -25,6 +27,27 @@ const LandmarkDetail = () => {
         .catch(() => setHtmlContent("<p>Full description is currently unavailable.</p>"));
     }
   }, [id, activeTab]);
+
+  useEffect(() => {
+  const fetchGalleryData = async () => {
+    try {
+      const res = await fetch(`${import.meta.env.BASE_URL}complete_gallery_types.json`);
+      const data = await res.json();
+      setJsonData(data);
+
+      // Find the key that matches the landmark ID
+      const match = Object.keys(data).find(key => key.startsWith(`${landmark.id}_`));
+      setLandmarkKey(match || null);
+    } catch (error) {
+      console.error('Failed to load gallery data:', error);
+    }
+  };
+
+  if (landmark?.id) {
+    fetchGalleryData();
+  }
+}, [landmark]);
+
 
   if (!landmark) return <p>Landmark not found.</p>;
 
@@ -47,7 +70,8 @@ const LandmarkDetail = () => {
         )}
 
     
-      {activeTab === "gallery" && <Gallery landmark={landmark} />}
+      {activeTab === "gallery" && landmarkKey && <Gallery landmarkId={landmarkKey} />}
+
 
 
 
@@ -70,7 +94,10 @@ const LandmarkDetail = () => {
 
         {activeTab === "ai" && <AIGenerator landmark={landmark} />}
 
-        {activeTab === "ar" && <ARViewer landmark={landmark} />}
+        {activeTab === "ar" && landmarkKey && <ARViewer landmarkId={landmarkKey} />}
+
+
+
 
       </div>
     </div>

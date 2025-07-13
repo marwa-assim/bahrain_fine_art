@@ -1,45 +1,58 @@
 import React, { useState, useEffect } from 'react';
 import './EnhancedGallery.css';
 
-const EnhancedGallery = ({ landmark }) => {
+  const EnhancedGallery = ({ landmarkId }) => {
+  const [galleryImages, setGalleryImages] = useState([]);
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentCategory, setCurrentCategory] = useState('all');
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [landmarkName, setLandmarkName] = useState('');
 
- const allImages = import.meta.glob('../assets/gallery/**/*.{jpg,jpeg,png,webp}', { eager: true });
-const galleryImages = [];
+  useEffect(() => {
+  const fetchGallery = async () => {
+    try {
+      const res = await fetch(`${import.meta.env.BASE_URL}complete_gallery_types.json`);
+      const data = await res.json();
 
-Object.entries(allImages).forEach(([path]) => {
-  const match = path.match(/\/gallery\/(\d+_[^/]+)\/([^/]+\.(jpg|jpeg|png|webp))/i);
-  if (match) {
-    const [_, folderName, fileName] = match;
-    const landmarkFolder = landmark.name.toLowerCase().replace(/\s+/g, '_');
+      const landmark = data[landmarkId];
+      if (!landmark || !landmark.images) {
+        setGalleryImages([]);
+        setLandmarkName('');
+        return;
+      }
 
-    if (folderName.toLowerCase().includes(landmarkFolder)) {
-      const categoryGuess = fileName.toLowerCase().includes('interior') ? 'interior'
-                              : fileName.toLowerCase().includes('aerial') ? 'aerial'
-                              : 'exterior';
+      setLandmarkName(landmark.name || '');
 
-      galleryImages.push({
-        url: allImages[path].default,
-        category: categoryGuess,
-        title: `${landmark.name} - ${categoryGuess}`,
-        description: `Photo showing ${categoryGuess} of ${landmark.name}`
-      });
+      const images = [];
+      for (const type in landmark.images) {
+        const typeImages = landmark.images[type];
+        typeImages.forEach((img, index) => {
+          images.push({
+            url: `${import.meta.env.BASE_URL}${img.src.replace(/^\//, '')}`,
+            category: type,
+            title: `${landmark.name} - ${type}`,
+            description: img.description || `Photo showing ${type} of ${landmark.name}`
+          });
+        });
+      }
+
+      setGalleryImages(images);
+    } catch (err) {
+      console.error("Failed to load gallery from JSON:", err);
+      setGalleryImages([]);
+      setLandmarkName(''); 
     }
+  };
+
+  if (landmarkId) {
+    fetchGallery();
   }
-});
+}, [landmarkId]);
 
 
-
-
-  if (!galleryImages || galleryImages.length === 0) {
-    return <p style={{ padding: '1rem', textAlign: 'center' }}>No gallery images available.</p>;
-  }
-
-  const filteredImages = currentCategory === 'all' 
-    ? galleryImages 
+  const filteredImages = currentCategory === 'all'
+    ? galleryImages
     : galleryImages.filter(img => img.category === currentCategory);
 
   const categories = ['all', ...new Set(galleryImages.map(img => img.category))];
@@ -67,26 +80,30 @@ Object.entries(allImages).forEach(([path]) => {
     setSelectedImage(filteredImages[prevIndex]);
   };
 
-  const handleKeyPress = (e) => {
-    if (isLightboxOpen) {
-      if (e.key === 'Escape') closeLightbox();
-      if (e.key === 'ArrowRight') nextImage();
-      if (e.key === 'ArrowLeft') prevImage();
-    }
-  };
-
   useEffect(() => {
+    const handleKeyPress = (e) => {
+      if (isLightboxOpen) {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowRight') nextImage();
+        if (e.key === 'ArrowLeft') prevImage();
+      }
+    };
+
     document.addEventListener('keydown', handleKeyPress);
     return () => document.removeEventListener('keydown', handleKeyPress);
   }, [isLightboxOpen, currentImageIndex]);
 
+  if (galleryImages.length === 0) {
+    return <p style={{ padding: '1rem', textAlign: 'center' }}>No gallery images available.</p>;
+  }
+
   return (
     <div className="enhanced-gallery">
       <div className="gallery-header">
-        <h3>📸 High-Resolution Gallery: {landmark.name}</h3>
-        <p className="gallery-description">
-          Explore {filteredImages.length} professional photographs showcasing the beauty and architectural details of {landmark.name}
-        </p>
+        <h3>📸 High-Resolution Gallery: {landmarkName}</h3>
+<p className="gallery-description">
+  Explore {filteredImages.length} professional photographs showcasing the beauty and architectural details of {landmarkName}
+</p>
       </div>
 
       <div className="category-filter">
@@ -98,8 +115,10 @@ Object.entries(allImages).forEach(([path]) => {
               className={`filter-btn ${currentCategory === category ? 'active' : ''}`}
               onClick={() => setCurrentCategory(category)}
             >
-              {category.charAt(0).toUpperCase() + category.slice(1)} 
-              {category === 'all' ? ` (${galleryImages.length})` : ` (${galleryImages.filter(img => img.category === category).length})`}
+              {category.charAt(0).toUpperCase() + category.slice(1)}
+              {category === 'all'
+                ? ` (${galleryImages.length})`
+                : ` (${galleryImages.filter(img => img.category === category).length})`}
             </button>
           ))}
         </div>
@@ -107,14 +126,14 @@ Object.entries(allImages).forEach(([path]) => {
 
       <div className="gallery-grid">
         {filteredImages.map((image, index) => (
-          <div 
-            key={index} 
+          <div
+            key={index}
             className="gallery-item"
             onClick={() => openLightbox(image, index)}
           >
-            <div className="image-container">
-              <img 
-                src={image.url} 
+            <div className="myimage-container">
+              <img
+                src={image.url}
                 alt={image.title}
                 loading="lazy"
               />
@@ -155,8 +174,8 @@ Object.entries(allImages).forEach(([path]) => {
           <div className="lightbox-content" onClick={e => e.stopPropagation()}>
             <button className="lightbox-close" onClick={closeLightbox}>×</button>
             <div className="lightbox-image-container">
-              <img 
-                src={selectedImage.url} 
+              <img
+                src={selectedImage.url}
                 alt={selectedImage.title}
                 className="lightbox-image"
               />
